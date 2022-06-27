@@ -13,10 +13,11 @@ const NavBar = () => {
     clients: "/our-talents",
     contact: "/contact",
   };
+
   return (
     <div>
       <nav>
-        <div>
+        <div className="ml-[75px] mt-[50px] absolute">
           <Image
             src={Logo}
             // layout="responsive"
@@ -27,7 +28,7 @@ const NavBar = () => {
         </div>
         <ul className="absolute list-none right-0 mr-[75px] pt-[38px]">
           <li
-            className={`inline-block p-5 text-[20px] ${
+            className={`inline-block p-5 text-[20px] nav-item tex ${
               router.pathname !== links.home
                 ? "text-white"
                 : "text-[#FFF46D] underline "
@@ -36,8 +37,8 @@ const NavBar = () => {
             <Link href="/">Home</Link>
           </li>
           <li
-            className={`inline-block p-5 text-[20px] ${
-              router.pathname !== links.home
+            className={`inline-block p-5 text-[20px] nav-item tex ${
+              router.pathname !== links.about
                 ? "text-white"
                 : "text-[#FFF46D] underline "
             }`}
@@ -45,8 +46,8 @@ const NavBar = () => {
             <Link href="/about-us">About us</Link>
           </li>
           <li
-            className={`inline-block p-5 text-[20px] ${
-              router.pathname !== links.home
+            className={`inline-block p-5 text-[20px] nav-item tex ${
+              router.pathname !== links.team
                 ? "text-white"
                 : "text-[#FFF46D] underline "
             }`}
@@ -54,8 +55,8 @@ const NavBar = () => {
             <Link href="/meet-the-team">Meet the team</Link>
           </li>
           <li
-            className={`inline-block p-5 text-[20px] ${
-              router.pathname !== links.home
+            className={`inline-block p-5 text-[20px] nav-item tex ${
+              router.pathname !== links.clients
                 ? "text-white"
                 : "text-[#FFF46D] underline "
             }`}
@@ -63,8 +64,8 @@ const NavBar = () => {
             <Link href="/our-talents">Our talents</Link>
           </li>
           <li
-            className={`inline-block p-5 text-[20px] ${
-              router.pathname !== links.home
+            className={`inline-block p-5 text-[20px] nav-item tex ${
+              router.pathname !== links.contact
                 ? "text-white"
                 : "text-[#FFF46D] underline "
             }`}

@@ -49,9 +49,9 @@ const layout: React.FC<Props> = ({ children, title }) => {
         />
         <meta name="twitter:image" content="https://i.imgur.com/Gd1N9JI.jpg" />
       </Head>
-      <header className="bg-white">
-        <NavBar />
-      </header>
+        <header>
+          <NavBar />
+        </header>
       <main>{children}</main>
       <Footer />
     </div>
