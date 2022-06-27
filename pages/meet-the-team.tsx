@@ -1,13 +1,14 @@
 import type { NextPage } from 'next'
 import React from 'react'
-import HomePage from '../components/HomePage'
 import Layout from '../components/layout'
+import TeamPage from '../components/TeamPage'
 
 const Home: NextPage = () => {
   return (
-     <Layout title='Beyond Vision - Home'>
-      <HomePage />
-     </Layout>
+    <Layout title='Beyond Vision - Meet The Team'>
+      <TeamPage />
+    </Layout>
+
   )
 }
 
