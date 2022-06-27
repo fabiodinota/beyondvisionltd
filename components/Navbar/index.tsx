@@ -28,45 +28,45 @@ const NavBar = () => {
         </div>
         <ul className="absolute list-none right-0 mr-[75px] pt-[38px]">
           <li
-            className={`inline-block p-5 text-[20px] nav-item tex ${
+            className={`inline-block p-5 text-[20px] nav-item text-white ${
               router.pathname !== links.home
-                ? "text-white"
+                ? "text-text"
                 : "text-[#FFF46D] underline "
             }`}
           >
             <Link href="/">Home</Link>
           </li>
           <li
-            className={`inline-block p-5 text-[20px] nav-item tex ${
+            className={`inline-block p-5 text-[20px] nav-item text-white ${
               router.pathname !== links.about
-                ? "text-white"
+                ? "text-text"
                 : "text-[#FFF46D] underline "
             }`}
           >
             <Link href="/about-us">About us</Link>
           </li>
           <li
-            className={`inline-block p-5 text-[20px] nav-item tex ${
+            className={`inline-block p-5 text-[20px] nav-item text-white ${
               router.pathname !== links.team
-                ? "text-white"
+                ? "text-text"
                 : "text-[#FFF46D] underline "
             }`}
           >
             <Link href="/meet-the-team">Meet the team</Link>
           </li>
           <li
-            className={`inline-block p-5 text-[20px] nav-item tex ${
+            className={`inline-block p-5 text-[20px] nav-item text-white ${
               router.pathname !== links.clients
-                ? "text-white"
+                ? "text-text"
                 : "text-[#FFF46D] underline "
             }`}
           >
             <Link href="/our-talents">Our talents</Link>
           </li>
           <li
-            className={`inline-block p-5 text-[20px] nav-item tex ${
+            className={`inline-block p-5 text-[20px] nav-item text-white ${
               router.pathname !== links.contact
-                ? "text-white"
+                ? "text-text"
                 : "text-[#FFF46D] underline "
             }`}
           >

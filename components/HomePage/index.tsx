@@ -7,7 +7,7 @@ const HomePage = () => {
         <h1 className="text-3xl text-yellow">Home Page</h1>
       </section>
     </div>
-    )
-}
+  );
+};
 
 export default HomePage;

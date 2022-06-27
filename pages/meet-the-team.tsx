@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import TeamPage from "../components/TeamPage";
 
-const Home: NextPage = () => {
+const Team: NextPage = () => {
   return (
     <Layout title="Beyond Vision - Meet The Team">
       <TeamPage />
@@ -11,4 +11,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Team;
