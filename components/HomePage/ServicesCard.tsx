@@ -9,6 +9,7 @@ import RelationsIcon from '../../public/images/ServicesCardAssets/RelationsIcon.
 
 
 const ServicesCard = () => {
+    console.log("hello")
   return (
     <>
     <div className=' rounded-3xl grid-container max-w-[1220px] w-[90%] bg-backgroundaccent h-[1700px] md:h-[1000px] 1xl:h-[720px] grid grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3 1xl:grid-cols-3 1xl:grid-rows-2 gap-10 p-10 place-items-center'>
