@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import PhoneIcon from '../../public/images/ServicesCardAssets/PhoneIcon.png'
+import PhoneIcon from '../../public/images/ServicesCardAssets/phoneicon.png'
 import CareerIcon from '../../public/images/ServicesCardAssets/CareerIcon.png'
 import ContractIcon from '../../public/images/ServicesCardAssets/ContractIcon.png'
 import AppearancesIcon from '../../public/images/ServicesCardAssets/AppearancesIcon.png'
