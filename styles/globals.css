@@ -16,4 +16,11 @@
     font-family: Raleway, sans-serif;
     fontweight: 500;
   }
+
+  .grid-container{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
 }

@@ -21,7 +21,6 @@ const NavBar = () => {
     clients: "/our-talents",
     contact: "/contact",
   };
-  console.log(isOpen)
   return (
     <div>
       <nav>
@@ -88,7 +87,7 @@ const NavBar = () => {
             <Image width={40} height={40}src={CloseMenu} alt="menuicon" />
           )}
         </motion.button>
-        <motion.div animate={isOpen ? "open" : "closed"} variants={variants} exit={{ opacity: 0 }} transition={{ duration: 0.3 }} className={`z-40 fixed bg-background w-full h-screen flex justify-center items-center ${ isOpen ? "block" : "hidden"}`}>
+        <motion.div animate={isOpen ? "open" : "closed"} variants={variants} exit={{ opacity: 0 }} transition={{ duration: 0.3 }} className={`z-40 fixed bg-background opacity-100 md:opacity-0 w-full h-screen flex justify-center items-center md:hidden ${ isOpen ? "block" : "hidden"}`}>
         <ul className="flex justify-center items-center w-full h-full flex-col bml:hidden">
           <li
             className={`text-center p-2 text-[20px] nav-item text-white ${

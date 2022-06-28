@@ -2,10 +2,11 @@ import Image from "next/image";
 import React from "react";
 import Background from "../../public/images/home-bg.png";
 import Phone from "../../public/images/phone-home.png";
+import ServicesCard from "./ServicesCard";
 
 const HomePage = () => {
   return (
-    <div className="flex justify-center items-center w-full">
+    <div className="flex justify-center items-center w-full flex-col">
       <section className="flex justify-center items-center w-[1220px] mx-[5%] h-screen flex-row">
         <div className="z-10 mt-20 md:mt-0">
           <h1 className="z-10 text-[96px] md:text-[64px] xl:text-[96px] text-yellow leading-[100%] font-bold ">Looking <br></br> Beyond <br></br>the Vision</h1>
@@ -15,6 +16,9 @@ const HomePage = () => {
           <Image className="z-20" layout="responsive" src={Phone} alt="phone with social media statson inlcuding: likes, followers and views." />
         </div>
         <Image className="fixed -z-0 opacity-50 md:opacity-100" src={Background} alt="background" layout="fill" />
+      </section>
+      <section className="flex justify-center items-center w-full h-screen flex-col">
+        <ServicesCard />
       </section>
     </div>
   );
