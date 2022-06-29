@@ -8,7 +8,7 @@ const ServicesCard = () => {
   return (
     <>
       <div className=" rounded-3xl grid-container max-w-[1220px] w-[90%] bg-backgroundaccent md:h-[1500px] 1xl:h-[500px] grid md:grid-cols-1 md:grid-rows-3 1xl:grid-cols-3 1xl:grid-rows-1 gap-10 p-10 place-items-center">
-        <div className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300">
+        <div className="rounded-3xl w-full  flex justify-center items-center py-10  flex-col hover:bg-background duration-300">
           <div className=" w-[316px] pt-10 h-auto">
             <Image layout="responsive" src={Jordan} alt="image" />
           </div>
@@ -19,8 +19,8 @@ const ServicesCard = () => {
             3 Million Followers
           </p>
         </div>
-        <div className="rounded-3xl w-full h-full flex justify-center items-center py-10 flex-col hover:bg-background duration-300">
-          <div className=" max-w-full w-full px-1  sm:w-[316px] pt-10 h-auto">
+        <div className="rounded-3xl w-full  flex justify-center items-center py-10  flex-col hover:bg-background duration-300">
+          <div className=" w-[316px] pt-10 h-auto">
             <Image layout="responsive" src={Subas} alt="image" />
           </div>
           <h3 className="text-[30px] pt-3 font-semibold text-yellow">

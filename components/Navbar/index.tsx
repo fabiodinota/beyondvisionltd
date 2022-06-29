@@ -23,8 +23,8 @@ const NavBar = () => {
   };
   return (
     <div>
-      <nav className="z-[9999]">
-        <div className="ml-[75px] mt-[50px] absolute z-50">
+      <nav className="relative z-[9999]">
+        <div className="ml-[40px] xs:ml-[75px] mt-[50px] absolute z-50">
           <Image
             src={Logo}
             // layout="responsive"
@@ -82,7 +82,7 @@ const NavBar = () => {
         </ul>
         <motion.button
           onClick={() => setIsOpen(!isOpen)}
-          className="absolute z-50 cursor-pointer right-0 mr-[75px] pt-[45px] block bml:hidden select-none"
+          className="absolute z-50 cursor-pointer right-0 mr-[40px] xs:mr-[75px] pt-[45px] block bml:hidden select-none"
         >
           {!isOpen ? (
             <Image width={40} height={40} src={Menu} alt="menuicon" />
