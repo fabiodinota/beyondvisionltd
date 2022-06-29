@@ -20,13 +20,13 @@ const ServicesCard = () => {
           </p>
         </div>
         <div className="rounded-3xl w-full h-full flex justify-center items-center py-10 flex-col hover:bg-background duration-300">
-          <div className=" w-[316px] pt-10 h-auto">
+          <div className=" max-w-full w-full px-1  sm:w-[316px] pt-10 h-auto">
             <Image layout="responsive" src={Subas} alt="image" />
           </div>
           <h3 className="text-[30px] pt-3 font-semibold text-yellow">
             Subas Shrestha
           </h3>
-          <p className="text-textaccent pb-10 text-center w-[320px] 1xl:w-full px-5 text-[13px]">
+          <p className="text-textaccent pb-10 text-center 1xl:w-full px-5 text-[13px]">
             2.1 Million Followers
           </p>
         </div>

@@ -16,7 +16,7 @@ const ServicesCard = () => {
             <Image layout="responsive" src={PhoneIcon} alt="image" />
           </div>
           <h3 className="text[20px] text-text">Social Media Management</h3>
-          <p className="text-textaccent pb-10 text-center w-[320px] 1xl:w-full px-5 text-[13px]">
+          <p className="text-textaccent pb-10 text-center w-full md:w-[320px] 1xl:w-full px-5 text-[13px]">
             TikTok | Instagram | Twitch Snapchat | Twitter
           </p>
         </div>
@@ -25,7 +25,7 @@ const ServicesCard = () => {
             <Image layout="responsive" src={CareerIcon} alt="image" />
           </div>
           <h3 className="text[20px] text-text">Career Management</h3>
-          <p className="text-textaccent pb-10 text-center w-[320px] 1xl:w-full px-5 text-[13px]">
+          <p className="text-textaccent pb-10 text-center w-full md:w-[320px] 1xl:w-full px-5 text-[13px]">
             We plan long-term goals and create new ambitions for you to meet
             short-term while guiding you throughout the process.
           </p>
@@ -35,7 +35,7 @@ const ServicesCard = () => {
             <Image layout="responsive" src={ContractIcon} alt="image" />
           </div>
           <h3 className="text[20px] text-text">Contract Management</h3>
-          <p className="text-textaccent pb-10 text-center w-[320px] 1xl:w-full px-5 text-[13px]">
+          <p className="text-textaccent pb-10 text-center w-full md:w-[320px] 1xl:w-full px-5 text-[13px]">
             We will handle any negotiation talks on your behalf with your goals
             in mind to bring you the best possible deals.
           </p>
@@ -45,7 +45,7 @@ const ServicesCard = () => {
             <Image layout="responsive" src={AppearancesIcon} alt="image" />
           </div>
           <h3 className="text[20px] text-text">Public Appearances</h3>
-          <p className="text-textaccent pb-10 text-center w-[320px] 1xl:w-full px-5 text-[13px]">
+          <p className="text-textaccent pb-10 text-center w-full md:w-[320px] 1xl:w-full px-5 text-[13px]">
             We will bring you unique and exquisite in-person opportunities to
             further your career in the public eye.
           </p>
@@ -58,7 +58,7 @@ const ServicesCard = () => {
             <h3 className="text[20px] text-center text-text">
               Sales and Marketing
             </h3>
-            <p className="text-textaccent pb-14 md:pb-10 text-center w-[320px] 1xl:w-full px-5 text-[13px]">
+            <p className="text-textaccent pb-14 md:pb-10 text-center w-full md:w-[320px] 1xl:w-full px-5 text-[13px]">
               We will handle all the marketing needs associated with your career
               and asses them to generate an established and stabilized income.
             </p>
@@ -72,7 +72,7 @@ const ServicesCard = () => {
             <h3 className="text[20px] text-center text-text">
               Public Relations
             </h3>
-            <p className="text-textaccent pb-10 text-center w-[320px] 1xl:w-full px-5 text-[13px]">
+            <p className="text-textaccent pb-10 text-center w-full md:w-[320px] 1xl:w-full px-5 text-[13px]">
               We will maintain a strong and exemplary image of you in the public
               eye.
             </p>
