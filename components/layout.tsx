@@ -10,7 +10,7 @@ interface Props {
 
 const layout: React.FC<Props> = ({ children, title }) => {
   return (
-    <div className="bg-[#161616]">
+    <div className="bg-[#161616] -z-50">
       <Head>
         <title>{title}</title>
         <meta charSet="utf-8" />
