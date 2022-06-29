@@ -1,10 +1,11 @@
 import React from "react";
+import TextComponentAbout from "./TextComponentAbout";
 
 const AboutPage = () => {
   return (
     <div className="flex justify-center items-center w-full">
-      <section className="flex justify-center items-center w-full h-screen">
-        <h1 className="text-3xl text-yellow">About Page</h1>
+      <section className="flex justify-center items-center max-w-[1220px] w-[90%] xl:w-full  flex-col mt-[100px] xl:mt-[150px]">
+        <TextComponentAbout />
       </section>
     </div>
   );

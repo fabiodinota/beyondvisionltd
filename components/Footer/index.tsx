@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <div className="flex w-full justify-center items-center flex-col pb-[60px]">
-        <h1 className="text-yellow text-[24px] font-semibold">
+        <h1 className="text-yellow text-[24px] text-center font-semibold">
           Looking Beyond The Vision
         </h1>
         <div className="flex flex-row justify-center items-center pt-2">

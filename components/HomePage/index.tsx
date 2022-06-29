@@ -67,7 +67,7 @@ const HomePage = () => {
         <Link href="/meet-the-team">View More</Link>
       </button>
       <section className="flex justify-center items-center max-w-[1220px] w-[90%] xl:w-full  flex-col mt-[100px] xl:mt-[150px]">
-       <TextComponent />
+        <TextComponent />
       </section>
       <section className=" lg:mt-[100px] max-w-[1220px] w-full">
         <h1 className="text-yellow text-[48px] mt-[150px]  flex justify-start items-start text-start px-10 xl:px-0 font-semibold pb-[50px]">
