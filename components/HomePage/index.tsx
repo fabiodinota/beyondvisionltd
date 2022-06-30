@@ -22,17 +22,31 @@ const HomePage = () => {
     <div className="flex justify-center items-center w-full flex-col">
       <section className="flex justify-center items-center max-w-[1220px] w-full mx-10 h-screen flex-row">
         <div className=" mt-20 md:mt-0 px-10 relative z-50">
-          <h1 data-aos="fade-up" data-aos-duration="800" className="text-[40px] xs:text-[64px] xl:text-[96px] text-yellow leading-[100%] font-bold ">
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="800"
+            className="text-[40px] xs:text-[64px] xl:text-[96px] text-yellow leading-[100%] font-bold "
+          >
             Looking <br></br> Beyond <br></br>the Vision
           </h1>
-          <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" className="text-text text-[15px] xs:text-[20px] leading-[150%] font-semibold max-w-[400px] w-90% lg:w-[400px] pt-5">
+          <p
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+            className="text-text text-[15px] xs:text-[20px] leading-[150%] font-semibold max-w-[400px] w-90% lg:w-[400px] pt-5"
+          >
             With YouTube &#38; Social Media administration, Content Creation,
             and Personalised Workflows, this all-in-one solution for Content
             Creators &#38; Influencers will take your business to the next level
             while saving you time.
           </p>
         </div>
-        <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" className=" z-10 hidden md:block h-auto md:w-[350px] bml:w-[430px] lg:w-[500px] xl:w-[600px] 2xl:w-[750px] mt-10">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="400"
+          className=" z-10 hidden md:block h-auto md:w-[350px] bml:w-[430px] lg:w-[500px] xl:w-[600px] 2xl:w-[750px] mt-10"
+        >
           <Image
             className="z-[10]"
             layout="responsive"
@@ -41,26 +55,42 @@ const HomePage = () => {
           />
         </div>
         <div className="z-[1]">
-        <Image
-          data-aos="fade-up" data-aos-duration="800" data-aos-delay="600" 
-          className="fixed  no-select opacity-0 hidden md:opacity-100  md:block"
-          src={Background}
-          alt="background"
-          layout="fill"
-        />
+          <Image
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="600"
+            className="fixed  no-select opacity-0 hidden md:opacity-100  md:block"
+            src={Background}
+            alt="background"
+            layout="fill"
+          />
         </div>
-        
       </section>
       <section className="mt-[100px] max-w-[1220px] w-full">
-        <h1  data-aos="fade-right" data-aos-duration="500" data-aos-delay="0" className="text-yellow text-[48px]  flex justify-start items-start text-start px-10 xl:px-0 font-semibold pb-[50px]">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="500"
+          data-aos-delay="0"
+          className="text-yellow text-[48px]  flex justify-start items-start text-start px-10 xl:px-0 font-semibold pb-[50px]"
+        >
           What do we do?
         </h1>
       </section>
-      <div   data-aos="fade-down" data-aos-duration="800" data-aos-delay="0" className="flex justify-center items-center w-full flex-col pb-[100px]">
+      <div
+        data-aos="fade-down"
+        data-aos-duration="800"
+        data-aos-delay="0"
+        className="flex justify-center items-center w-full flex-col pb-[100px]"
+      >
         <ServicesCard />
       </div>
       <section className="mt-[100px] max-w-[1220px] w-full">
-        <h1   data-aos="fade-right" data-aos-duration="500" data-aos-delay="0" className="text-yellow text-[38px] xs:text-[48px] px-10 xl:px-0 text-start font-semibold pb-[50px]">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="500"
+          data-aos-delay="0"
+          className="text-yellow text-[38px] xs:text-[48px] px-10 xl:px-0 text-start font-semibold pb-[50px]"
+        >
           Influencers working with us
         </h1>
       </section>
@@ -74,7 +104,12 @@ const HomePage = () => {
         <TextComponent />
       </section>
       <section className=" lg:mt-[100px] max-w-[1220px] w-full">
-        <h1   data-aos="fade-right" data-aos-duration="500" data-aos-delay="0" className="text-yellow text-[48px] mt-[150px]  flex justify-start items-start text-start px-10 xl:px-0 font-semibold pb-[50px]">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="500"
+          data-aos-delay="0"
+          className="text-yellow text-[48px] mt-[150px]  flex justify-start items-start text-start px-10 xl:px-0 font-semibold pb-[50px]"
+        >
           Brands we&apos;ve worked with
         </h1>
       </section>

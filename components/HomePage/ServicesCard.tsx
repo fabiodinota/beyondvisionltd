@@ -11,7 +11,12 @@ const ServicesCard = () => {
   return (
     <>
       <div className=" rounded-3xl grid-container max-w-[1220px] w-[90%] overflow-hidden bg-backgroundaccent h-[2100px] xs:h-[1900px] md:h-[1000px] 1xl:h-[720px] grid grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3 1xl:grid-cols-3 1xl:grid-rows-2 gap-10 p-10 place-items-center">
-        <div data-aos="fade-s" data-aos-duration="1000" data-aos-delay="200" className="rounded-3xl w-full h-full flex justify-center items-center  flex-col bg-background">
+        <div
+          data-aos="fade-s"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          className="rounded-3xl w-full h-full flex justify-center items-center  flex-col bg-background"
+        >
           <div className=" w-[64px] py-10 h-auto">
             <Image layout="responsive" src={PhoneIcon} alt="image" />
           </div>
@@ -20,7 +25,12 @@ const ServicesCard = () => {
             TikTok | Instagram | Twitch Snapchat | Twitter
           </p>
         </div>
-        <div  data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" className="rounded-3xl w-full  h-full flex justify-center items-center flex-col bg-background">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+          className="rounded-3xl w-full  h-full flex justify-center items-center flex-col bg-background"
+        >
           <div className=" w-[100px] pb-5 pt-16 h-auto">
             <Image layout="responsive" src={CareerIcon} alt="image" />
           </div>
@@ -30,7 +40,12 @@ const ServicesCard = () => {
             short-term while guiding you throughout the process.
           </p>
         </div>
-        <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400" className="rounded-3xl  w-full  h-full flex justify-center items-center flex-col bg-background">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+          className="rounded-3xl  w-full  h-full flex justify-center items-center flex-col bg-background"
+        >
           <div className=" w-[64px] py-10 h-auto">
             <Image layout="responsive" src={ContractIcon} alt="image" />
           </div>
@@ -40,7 +55,12 @@ const ServicesCard = () => {
             in mind to bring you the best possible deals.
           </p>
         </div>
-        <div  data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" className="rounded-3xl  w-full  h-full flex justify-center items-center flex-col bg-background">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+          className="rounded-3xl  w-full  h-full flex justify-center items-center flex-col bg-background"
+        >
           <div className=" w-[64px] py-10 h-auto">
             <Image layout="responsive" src={AppearancesIcon} alt="image" />
           </div>
@@ -50,7 +70,12 @@ const ServicesCard = () => {
             further your career in the public eye.
           </p>
         </div>
-        <div  data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600" className="rounded-3xl w-full h-full flex justify-center items-center flex-col bg-background">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+          className="rounded-3xl w-full h-full flex justify-center items-center flex-col bg-background"
+        >
           <div className=" w-[100px] py-10 h-auto">
             <Image layout="responsive" src={SalesIcon} alt="image" />
           </div>
@@ -64,7 +89,12 @@ const ServicesCard = () => {
             </p>
           </div>
         </div>
-        <div  data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700" className="rounded-3xl w-full h-full flex justify-center items-center flex-col bg-background">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+          className="rounded-3xl w-full h-full flex justify-center items-center flex-col bg-background"
+        >
           <div className=" w-[110px] py-10 h-auto">
             <Image layout="responsive" src={RelationsIcon} alt="image" />
           </div>
