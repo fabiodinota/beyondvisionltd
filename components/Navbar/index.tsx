@@ -14,6 +14,10 @@ const NavBar = () => {
     open: { opacity: 1 },
     closed: { opacity: 0 },
   };
+  const button:any = document.querySelector("button");
+  if (isOpen === true) {
+  window.scrollTo(0, 0);
+  }
   const links = {
     home: "/",
     about: "/about-us",
@@ -23,8 +27,8 @@ const NavBar = () => {
   };
   return (
     <div>
-      <nav className="relative z-[9999] w-screen overflow-hidden">
-        <div className="ml-[40px] xs:ml-[75px] mt-[50px] absolute z-50">
+      <nav className="relative z-[9999] w-full">
+        <div className={`ml-[40px] xs:ml-[75px] mt-[50px] absolute z-50 ${isOpen ? "fixed" : ""}`}>
           <Image
             src={Logo}
             // layout="responsive"
@@ -33,7 +37,7 @@ const NavBar = () => {
             alt="logo"
           />
         </div>
-        <ul className="absolute list-none right-0 mr-[75px] pt-[38px] w-full hidden bml:block">
+        <ul className="absolute list-none right-0 mr-[75px] pt-[38px] hidden bml:block">
           <li
             className={`inline-block p-5 text-[20px] nav-item text-white ${
               router.pathname !== links.home
@@ -82,7 +86,7 @@ const NavBar = () => {
         </ul>
         <motion.button
           onClick={() => setIsOpen(!isOpen)}
-          className="absolute z-50 cursor-pointer right-0 mr-[40px] xs:mr-[75px] pt-[45px] block bml:hidden select-none"
+          className={` z-[60] cursor-pointer right-0 mr-[40px] xs:mr-[75px] top-[45px] block bml:hidden select-none ${ isOpen ? "fixed" : "absolute"}`}
         >
           {!isOpen ? (
             <Image width={40} height={40} src={Menu} alt="menuicon" />
@@ -95,10 +99,19 @@ const NavBar = () => {
           variants={variants}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className={`z-40 fixed bg-background opacity-100 md:opacity-0 w-screen h-screen flex justify-center items-center overflow-hidden md:hidden ${
+          className={`z-50 fixed bg-background opacity-100 md:opacity-0 w-screen h-screen flex justify-center items-center overflow-hidden md:hidden ${
             isOpen ? "block" : "hidden"
           }`}
         >
+          <div className={`ml-[40px] xs:ml-[75px] mt-[50px]  absolute z-50 top-0 left-0`}>
+          <Image
+            src={Logo}
+            // layout="responsive"
+            height={45}
+            width={73}
+            alt="logo"
+          />
+        </div>
           <ul className="flex justify-center items-center w-full h-full flex-col bml:hidden">
             <li
               className={`text-center p-2 text-[20px] nav-item text-white ${

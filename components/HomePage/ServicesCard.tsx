@@ -10,9 +10,9 @@ import RelationsIcon from "../../public/images/ServicesCardAssets/RelationsIcon.
 const ServicesCard = () => {
   return (
     <>
-      <div className=" rounded-3xl grid-container max-w-[1220px] w-[90%] overflow-hidden bg-backgroundaccent h-[2100px] xs:h-[1900px] md:h-[1000px] 1xl:h-[720px] grid grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3 1xl:grid-cols-3 1xl:grid-rows-2 gap-10 p-10 place-items-center">
+      <div className=" rounded-3xl grid-container-homex max-w-[1220px] w-[90%] overflow-hidden bg-backgroundaccent h-[2100px] xs:h-[1900px] md:h-[1000px] 1xl:h-[720px] grid grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3 1xl:grid-cols-3 1xl:grid-rows-2 gap-10 p-10 place-items-center place-content-center">
         <div
-          data-aos="fade-s"
+          data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="200"
           className="rounded-3xl w-full h-full flex justify-center items-center  flex-col bg-background"
