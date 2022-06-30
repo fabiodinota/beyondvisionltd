@@ -8,7 +8,7 @@ const TextComponent = () => {
   return (
     <>
       <div className="flex justify-center items-center flex-wrap xl:flex-nowrap px-0 xl:px-5 flex-row">
-        <div className="max-w-[900px] w-[90%] xl:w-[610px] pb-10 xl:pb-0 pr-0 xl:pr-10">
+        <div  data-aos="fade-right" data-aos-duration="600" className="max-w-[900px] w-[90%] xl:w-[610px] pb-10 xl:pb-0 pr-0 xl:pr-10">
           <h1 className="text-[36px] md:text-[42px] text-yellow font-semibold">
             Why we do it
           </h1>
@@ -20,7 +20,7 @@ const TextComponent = () => {
             while achieving beyond the vision of any aspirations!
           </p>
         </div>
-        <div className="w-[90%] xl:w-[550px] xl:h-auto">
+        <div  data-aos="fade-left" data-aos-duration="600" className="w-[90%] xl:w-[550px] xl:h-auto">
           <Image
             src={HomeImage1}
             layout="responsive"
@@ -29,14 +29,14 @@ const TextComponent = () => {
         </div>
       </div>
       <div className="flex justify-center items-center flex-wrap-reverse xl:flex-nowrap px-0 xl:mx-5 flex-row pt-10">
-        <div className="w-[90%] xl:w-[550px] xl:h-auto">
+        <div data-aos="fade-right" data-aos-duration="600" className="w-[90%] xl:w-[550px] xl:h-auto">
           <Image
             src={HomeImage2}
             layout="responsive"
             alt="home image with productivity setup"
           />
         </div>
-        <div className="pl-0 xl:pl-10 max-w-[900px] w-[90%] pb-10 xl:pb-0 xl:w-[610px]">
+        <div  data-aos="fade-left" data-aos-duration="600" className="pl-0 xl:pl-10 max-w-[900px] w-[90%] pb-10 xl:pb-0 xl:w-[610px]">
           <h1 className="text-[36px] md:text-[42px] text-yellow font-semibold">
             Why companies need to work with influencers
           </h1>
