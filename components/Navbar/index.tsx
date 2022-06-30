@@ -95,7 +95,7 @@ const NavBar = () => {
           variants={variants}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className={`z-40 fixed bg-background opacity-100 md:opacity-0 w-full h-screen flex justify-center items-center md:hidden ${
+          className={`z-40 fixed bg-background opacity-100 md:opacity-0 w-screen h-screen flex justify-center items-center overflow-hidden md:hidden ${
             isOpen ? "block" : "hidden"
           }`}
         >
