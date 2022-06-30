@@ -23,7 +23,7 @@ const NavBar = () => {
   };
   return (
     <div>
-      <nav className="relative z-[9999]">
+      <nav className="relative z-[9999] w-screen overflow-hidden">
         <div className="ml-[40px] xs:ml-[75px] mt-[50px] absolute z-50">
           <Image
             src={Logo}
@@ -33,7 +33,7 @@ const NavBar = () => {
             alt="logo"
           />
         </div>
-        <ul className="absolute list-none right-0 mr-[75px] pt-[38px] hidden bml:block">
+        <ul className="absolute list-none right-0 mr-[75px] pt-[38px] w-full hidden bml:block">
           <li
             className={`inline-block p-5 text-[20px] nav-item text-white ${
               router.pathname !== links.home
