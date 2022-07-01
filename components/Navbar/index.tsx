@@ -14,9 +14,8 @@ const NavBar = () => {
     open: { opacity: 1 },
     closed: { opacity: 0 },
   };
-  const button:any = document.querySelector("button");
   if (isOpen === true) {
-  window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }
   const links = {
     home: "/",
@@ -28,7 +27,11 @@ const NavBar = () => {
   return (
     <div>
       <nav className="relative z-[9999] w-full">
-        <div className={`ml-[40px] xs:ml-[75px] mt-[50px] absolute z-50 ${isOpen ? "fixed" : ""}`}>
+        <div
+          className={`ml-[40px] xs:ml-[75px] mt-[50px] absolute z-50 ${
+            isOpen ? "fixed" : ""
+          }`}
+        >
           <Image
             src={Logo}
             // layout="responsive"
@@ -86,7 +89,9 @@ const NavBar = () => {
         </ul>
         <motion.button
           onClick={() => setIsOpen(!isOpen)}
-          className={` z-[60] cursor-pointer right-0 mr-[40px] xs:mr-[75px] top-[45px] block bml:hidden select-none ${ isOpen ? "fixed" : "absolute"}`}
+          className={` z-[60] cursor-pointer right-0 mr-[40px] xs:mr-[75px] top-[45px] block bml:hidden select-none ${
+            isOpen ? "fixed" : "absolute"
+          }`}
         >
           {!isOpen ? (
             <Image width={40} height={40} src={Menu} alt="menuicon" />
@@ -103,15 +108,17 @@ const NavBar = () => {
             isOpen ? "block" : "hidden"
           }`}
         >
-          <div className={`ml-[40px] xs:ml-[75px] mt-[50px]  absolute z-50 top-0 left-0`}>
-          <Image
-            src={Logo}
-            // layout="responsive"
-            height={45}
-            width={73}
-            alt="logo"
-          />
-        </div>
+          <div
+            className={`ml-[40px] xs:ml-[75px] mt-[50px]  absolute z-50 top-0 left-0`}
+          >
+            <Image
+              src={Logo}
+              // layout="responsive"
+              height={45}
+              width={73}
+              alt="logo"
+            />
+          </div>
           <ul className="flex justify-center items-center w-full h-full flex-col bml:hidden">
             <li
               className={`text-center p-2 text-[20px] nav-item text-white ${
