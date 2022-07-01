@@ -21,11 +21,11 @@ const HomePage = () => {
   return (
     <div className="flex justify-center items-center w-full flex-col">
       <section className="flex justify-center items-center max-w-[1220px] w-full mx-10 h-screen flex-row">
-        <div className=" mt-20 md:mt-0 px-10 relative z-50">
+        <div className=" mt-20 md:mt-0 px-10 md:pl-20 relative z-50">
           <h1
             data-aos="fade-up"
             data-aos-duration="800"
-            className="text-[40px] xs:text-[64px] xl:text-[96px] text-yellow leading-[100%] font-bold "
+            className="text-[40px] xxs:text-[64px] xl:text-[96px] text-yellow leading-[100%] font-bold "
           >
             Looking <br></br> Beyond <br></br>the Vision
           </h1>
@@ -45,7 +45,7 @@ const HomePage = () => {
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="400"
-          className=" z-10 hidden md:block h-auto md:w-[350px] bml:w-[430px] lg:w-[500px] xl:w-[600px] 2xl:w-[750px] mt-10"
+          className=" z-10 hidden md:block h-auto max-w-[750px] w-full mt-10"
         >
           <Image
             className="z-[10]"
@@ -54,6 +54,19 @@ const HomePage = () => {
             alt="phone with social media statson inlcuding: likes, followers and views."
           />
         </div>
+        {/* <div
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="400"
+          className=" z-10 hidden md:block h-auto md:w-[350px] bml:w-[430px] lg:w-[500px] xl:w-[600px] 2xl:w-[750px] mt-10"
+        >
+          <Image
+            className="z-[10]"
+            layout="responsive"
+            src={Phone}
+            alt="phone with social media statson inlcuding: likes, followers and views."
+          />
+        </div> */}
         <div className="z-[1]">
           <Image
             data-aos="fade-up"

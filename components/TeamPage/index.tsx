@@ -2,13 +2,12 @@ import Image from "next/image";
 import React from "react";
 import Main from "../../public/images/TeamPageMain.png";
 
-// alphanumeric code for apostrophes 
-
+// alphanumeric code for apostrophes
 
 const TeamPage = () => {
   return (
     <div className="flex justify-center items-center w-full">
-     {/*  <div className="flex justify-center items-center flex-wrap-reverse mt-8 md:mt-14 xl:mt-0 xl:flex-nowrap px-0 xl:mx-5 pb-[100px] flex-row pt-10">
+      {/*  <div className="flex justify-center items-center flex-wrap-reverse mt-8 md:mt-14 xl:mt-0 xl:flex-nowrap px-0 xl:mx-5 pb-[100px] flex-row pt-10">
         <div className="pl-0 xl:pl-10 absolute z-10 left-0 ml-[200px]  pb-10 xl:pb-0 w-[510px]">
           <h1
             data-aos="fade-up"
@@ -48,55 +47,173 @@ const TeamPage = () => {
         </div>
       </div> */}
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 p-10 place-items-center">
-        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
-          <h1 className="text-yellow text-[40px] font-semibold leading-none">Cory Hodkinson</h1>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
+            Cory Hodkinson
+          </h1>
           <p className=" text-textaccent text-[16px] pb-5">Founder & Ceo</p>
-          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
-          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+          <p className="text-text w-full pb-5">
+            I founded Beyond Vision in April of 2022 and since that moment I
+            have loved every second and never looked back. Overall, the feeling
+            of essentially changing someone&apos;s life for the astronomical
+            good is such a privilege and an exhilarating and phenomenal feeling.
+          </p>
+          <p className="text-text font-semibold">
+            &gt;{" "}
+            <a
+              className="text-text font-semibold underline"
+              href="mailto:coryh@beyondvisionltd.org"
+            >
+              coryh@beyondvisionltd.org
+            </a>
+          </p>
         </div>
-        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
-          <h1 className="text-yellow text-[40px] font-semibold leading-none">Ryan Macklin</h1>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
+            Ryan Macklin
+          </h1>
           <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
-          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
-          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+          <p className="text-text w-full pb-5">
+            I founded Beyond Vision in April of 2022 and since that moment I
+            have loved every second and never looked back. Overall, the feeling
+            of essentially changing someone&apos;s life for the astronomical
+            good is such a privilege and an exhilarating and phenomenal feeling.
+          </p>
+          <p className="text-text font-semibold">
+            &gt;{" "}
+            <a
+              className="text-text font-semibold underline"
+              href="mailto:coryh@beyondvisionltd.org"
+            >
+              coryh@beyondvisionltd.org
+            </a>
+          </p>
         </div>
-        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
-          <h1 className="text-yellow text-[40px] font-semibold leading-none">Khye Parkinson</h1>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
+            Khye Parkinson
+          </h1>
           <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
-          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
-          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+          <p className="text-text w-full pb-5">
+            I founded Beyond Vision in April of 2022 and since that moment I
+            have loved every second and never looked back. Overall, the feeling
+            of essentially changing someone&apos;s life for the astronomical
+            good is such a privilege and an exhilarating and phenomenal feeling.
+          </p>
+          <p className="text-text font-semibold">
+            &gt;{" "}
+            <a
+              className="text-text font-semibold underline"
+              href="mailto:coryh@beyondvisionltd.org"
+            >
+              coryh@beyondvisionltd.org
+            </a>
+          </p>
         </div>
-        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
-          <h1 className="text-yellow text-[40px] font-semibold leading-none">Laurence Ivy</h1>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
+            Laurence Ivy
+          </h1>
           <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
-          <p className="text-text w-full pb-5">I have had a passion for marketing and management since I was young. To be doing my passion, full-time with such incredible people all around me is prodigious, I love it!</p>
-          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+          <p className="text-text w-full pb-5">
+            I have had a passion for marketing and management since I was young.
+            To be doing my passion, full-time with such incredible people all
+            around me is prodigious, I love it!
+          </p>
+          <p className="text-text font-semibold">
+            &gt;{" "}
+            <a
+              className="text-text font-semibold underline"
+              href="mailto:coryh@beyondvisionltd.org"
+            >
+              coryh@beyondvisionltd.org
+            </a>
+          </p>
         </div>
-        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
-          <h1 className="text-yellow text-[40px] font-semibold leading-none">Nathan Weintraub</h1>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
+            Nathan Weintraub
+          </h1>
           <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
-          <p className="text-text w-full pb-5">To be serving such incredible talents and helping them strive through their goals and aspirations is such a sensational feeling!</p>
-          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+          <p className="text-text w-full pb-5">
+            To be serving such incredible talents and helping them strive
+            through their goals and aspirations is such a sensational feeling!
+          </p>
+          <p className="text-text font-semibold">
+            &gt;{" "}
+            <a
+              className="text-text font-semibold underline"
+              href="mailto:coryh@beyondvisionltd.org"
+            >
+              coryh@beyondvisionltd.org
+            </a>
+          </p>
         </div>
-        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
-          <h1 className="text-yellow text-[40px] font-semibold leading-none">Benjamin Chu</h1>
-          <p className=" text-textaccent text-[16px] pb-5">Talent Manager & Content Strategist</p>
-          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
-          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
+            Benjamin Chu
+          </h1>
+          <p className=" text-textaccent text-[16px] pb-5">
+            Talent Manager & Content Strategist
+          </p>
+          <p className="text-text w-full pb-5">
+            I founded Beyond Vision in April of 2022 and since that moment I
+            have loved every second and never looked back. Overall, the feeling
+            of essentially changing someone&apos;s life for the astronomical
+            good is such a privilege and an exhilarating and phenomenal feeling.
+          </p>
+          <p className="text-text font-semibold">
+            &gt;{" "}
+            <a
+              className="text-text font-semibold underline"
+              href="mailto:coryh@beyondvisionltd.org"
+            >
+              coryh@beyondvisionltd.org
+            </a>
+          </p>
         </div>
-        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
-          <h1 className="text-yellow text-[40px] font-semibold leading-none">Coby Stones</h1>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
+            Coby Stones
+          </h1>
           <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
-          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
-          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+          <p className="text-text w-full pb-5">
+            I founded Beyond Vision in April of 2022 and since that moment I
+            have loved every second and never looked back. Overall, the feeling
+            of essentially changing someone&apos;s life for the astronomical
+            good is such a privilege and an exhilarating and phenomenal feeling.
+          </p>
+          <p className="text-text font-semibold">
+            &gt;{" "}
+            <a
+              className="text-text font-semibold underline"
+              href="mailto:coryh@beyondvisionltd.org"
+            >
+              coryh@beyondvisionltd.org
+            </a>
+          </p>
         </div>
-        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
-          <h1 className="text-yellow text-[40px] font-semibold leading-none">Kieran Page</h1>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
+            Kieran Page
+          </h1>
           <p className=" text-textaccent text-[16px] pb-5">President</p>
-          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
-          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">kieran@beyondvisionltd.org</a></p>
+          <p className="text-text w-full pb-5">
+            I founded Beyond Vision in April of 2022 and since that moment I
+            have loved every second and never looked back. Overall, the feeling
+            of essentially changing someone&apos;s life for the astronomical
+            good is such a privilege and an exhilarating and phenomenal feeling.
+          </p>
+          <p className="text-text font-semibold">
+            &gt;{" "}
+            <a
+              className="text-text font-semibold underline"
+              href="mailto:coryh@beyondvisionltd.org"
+            >
+              kieran@beyondvisionltd.org
+            </a>
+          </p>
         </div>
-
       </div>
     </div>
   );

@@ -168,7 +168,12 @@ const ClientPage = () => {
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] rounded-full xs:w-[316px] pt-10 h-auto">
-                <Image className="rounded-full" layout="responsive" src={Mo} alt="image" />
+                <Image
+                  className="rounded-full"
+                  layout="responsive"
+                  src={Mo}
+                  alt="image"
+                />
               </div>
               <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
                 Mo
@@ -187,7 +192,12 @@ const ClientPage = () => {
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
-                <Image className="rounded-full" layout="responsive" src={Greats} alt="image" />
+                <Image
+                  className="rounded-full"
+                  layout="responsive"
+                  src={Greats}
+                  alt="image"
+                />
               </div>
               <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
                 Dai & Liyah

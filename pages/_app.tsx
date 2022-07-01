@@ -3,12 +3,13 @@ import type { AppProps } from "next/app";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { AnimatePresence } from "framer-motion";
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     AOS.init();
   }, []);
-  return <Component {...pageProps} />;
+  return <AnimatePresence><Component {...pageProps} /></AnimatePresence>;
 }
 
 export default MyApp;
