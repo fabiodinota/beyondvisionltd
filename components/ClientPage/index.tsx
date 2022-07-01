@@ -25,12 +25,12 @@ const ClientPage = () => {
             Talent Roster
           </h1>
           {/* <div className="flex justify-center items-center max-w-[1220px] w-full"> */}
-          <div className="grid max-w-[1220px] grid-container grid-cols-3 w-full place-content-center place-items-center">
+          <div className="grid grid-cols-3 max-w-[1220px] w-full gap-x-20 px-10 grid-container place-content-center place-items-center">
             <div
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="100"
-              className="rounded-3xl  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
+              className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
                 <Image layout="responsive" src={Iszy} alt="image" />

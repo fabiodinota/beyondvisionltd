@@ -19,7 +19,7 @@ import TextComponent from "./TextComponent";
 
 const HomePage = () => {
   return (
-    <div className="flex justify-center items-center w-full flex-col">
+    <div className="flex justify-center items-center w-full h-full flex-col overflow-hidden">
       <section className="flex justify-center items-center max-w-[1220px] w-full mx-10 h-screen flex-row">
         <div className=" mt-20 md:mt-0 px-10 md:pl-20 relative z-50">
           <h1
@@ -54,31 +54,14 @@ const HomePage = () => {
             alt="phone with social media statson inlcuding: likes, followers and views."
           />
         </div>
-        {/* <div
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-delay="400"
-          className=" z-10 hidden md:block h-auto md:w-[350px] bml:w-[430px] lg:w-[500px] xl:w-[600px] 2xl:w-[750px] mt-10"
-        >
-          <Image
-            className="z-[10]"
-            layout="responsive"
-            src={Phone}
-            alt="phone with social media statson inlcuding: likes, followers and views."
-          />
-        </div> */}
-        <div className="z-[1]">
-          <Image
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="600"
-            className="fixed  no-select opacity-0 hidden md:opacity-100  md:block"
-            src={Background}
-            alt="background"
-            layout="fill"
-          />
-        </div>
+        <Image
+          className="fixed  no-select opacity-0 md:opacity-100 hidden md:block"
+          src={Background}
+          alt="background"
+          layout="fill"
+        />
       </section>
+
       <section className="mt-[100px] max-w-[1220px] w-full">
         <h1
           data-aos="fade-right"

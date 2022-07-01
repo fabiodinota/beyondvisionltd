@@ -9,7 +9,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     AOS.init();
   }, []);
-  return <AnimatePresence><Component {...pageProps} /></AnimatePresence>;
+  return (
+    <AnimatePresence>
+      <Component {...pageProps} />
+    </AnimatePresence>
+  );
 }
 
 export default MyApp;

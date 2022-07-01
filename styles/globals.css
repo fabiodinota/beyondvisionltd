@@ -24,6 +24,6 @@
   }
 
   .grid-container {
-    grid-template-columns: repeat(auto-fill, 363px);
+    grid-template-columns: repeat(auto-fill, minmax(0, 316px));
   }
 }
