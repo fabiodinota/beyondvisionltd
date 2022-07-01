@@ -2,30 +2,21 @@ import Image from "next/image";
 import React from "react";
 import Main from "../../public/images/TeamPageMain.png";
 
+// alphanumeric code for apostrophes 
+
+
 const TeamPage = () => {
   return (
     <div className="flex justify-center items-center w-full">
-       <div className="flex justify-center items-center flex-wrap-reverse mt-8 md:mt-14 xl:mt-0 xl:flex-nowrap px-0 xl:mx-5 pb-[100px] flex-row pt-10">
-        <div
-          data-aos="fade-up"
-          data-aos-duration="700"
-          data-aos-delay="0"
-          className="w-[90%] xl:w-[550px] xl:h-auto"
-        >
-          <Image
-            src={Main}
-            layout="responsive"
-            alt="home image with productivity setup"
-          />
-        </div>
-        <div className="pl-0 xl:pl-10 max-w-[900px] w-[90%] pb-10 xl:pb-0 xl:w-[610px]">
+     {/*  <div className="flex justify-center items-center flex-wrap-reverse mt-8 md:mt-14 xl:mt-0 xl:flex-nowrap px-0 xl:mx-5 pb-[100px] flex-row pt-10">
+        <div className="pl-0 xl:pl-10 absolute z-10 left-0 ml-[200px]  pb-10 xl:pb-0 w-[510px]">
           <h1
             data-aos="fade-up"
             data-aos-duration="700"
             data-aos-delay="150"
-            className="text-[36px] md:text-[42px] pb-5 text-yellow font-semibold"
+            className="text-[96px] md:text-[96px] leading-none pb-5 text-yellow font-semibold"
           >
-            Marketing & Management Agency{" "}
+            Meet <br></br> Our <br></br>Team
           </h1>
           <p
             data-aos="fade-up"
@@ -33,19 +24,79 @@ const TeamPage = () => {
             data-aos-delay="300"
             className=" text-text font-semibold"
           >
-            Beyond Vision LTD is an influencer marketing and management agency
-            based out of the United Kingdom, but not limited to working inside
-            of the United Kingdom as the agency works with various influencers
-            &#x0026; companies of all different calibers all around the globe.
-            <br />
-            <br />
-            Beyond Vision was founded in early March of 2022 by the current CEO,
-            Cory Hodkinson, since its launch in March of 2022, Beyond Vision has
-            accumulated an influencer clientele roster of over 400 million in
-            terms of a combined following while rapidly expanding each passing
-            day.
+            Our team is more than a team we are one big dedicated family with
+            the same goal in mind, to turn our client&#39;s dreams into reality. All
+            of our team members have exemplary past achievements and recent case
+            studies, highlighting why they deserve to be a part of the family at
+            Beyond Vision. day.
           </p>
         </div>
+        <div className="w-screen h-screen flex justify-center  mr-0 1.5xl:justify-end 1.5xl:mr-[250px]  1.5xl:mt-[-39px] items-end">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-delay="0"
+            className="1.5xl:w-[550px] w-[600px]"
+          >
+            <Image
+              src={Main}
+              layout="responsive"
+              alt="home image with productivity setup"
+            />
+
+          </div>
+        </div>
+      </div> */}
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 p-10 place-items-center">
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[40px] font-semibold leading-none">Cory Hodkinson</h1>
+          <p className=" text-textaccent text-[16px] pb-5">Founder & Ceo</p>
+          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
+          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+        </div>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[40px] font-semibold leading-none">Ryan Macklin</h1>
+          <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
+          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
+          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+        </div>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[40px] font-semibold leading-none">Khye Parkinson</h1>
+          <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
+          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
+          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+        </div>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[40px] font-semibold leading-none">Laurence Ivy</h1>
+          <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
+          <p className="text-text w-full pb-5">I have had a passion for marketing and management since I was young. To be doing my passion, full-time with such incredible people all around me is prodigious, I love it!</p>
+          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+        </div>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[40px] font-semibold leading-none">Nathan Weintraub</h1>
+          <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
+          <p className="text-text w-full pb-5">To be serving such incredible talents and helping them strive through their goals and aspirations is such a sensational feeling!</p>
+          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+        </div>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[40px] font-semibold leading-none">Benjamin Chu</h1>
+          <p className=" text-textaccent text-[16px] pb-5">Talent Manager & Content Strategist</p>
+          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
+          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+        </div>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[40px] font-semibold leading-none">Coby Stones</h1>
+          <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
+          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
+          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">coryh@beyondvisionltd.org</a></p>
+        </div>
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[40px] font-semibold leading-none">Kieran Page</h1>
+          <p className=" text-textaccent text-[16px] pb-5">President</p>
+          <p className="text-text w-full pb-5">I founded Beyond Vision in April of 2022 and since that moment I have loved every second and never looked back. Overall, the feeling of essentially changing someone&apos;s life for the astronomical good is such a privilege and an exhilarating and phenomenal feeling.</p>
+          <p className="text-text font-semibold">&gt; <a className="text-text font-semibold underline" href="mailto:coryh@beyondvisionltd.org">kieran@beyondvisionltd.org</a></p>
+        </div>
+
       </div>
     </div>
   );
