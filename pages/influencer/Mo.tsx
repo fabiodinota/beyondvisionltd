@@ -1,8 +1,12 @@
 import React from 'react'
+import Layout from '../../components/layout'
+import MoPage from '../../components/ClientPage/Clients/MoPage'
 
 const Mo = () => {
   return (
-    <div>Mo</div>
+    <Layout title="Beyond Vision - @_m0_g">
+        <MoPage />
+    </Layout>
   )
 }
 

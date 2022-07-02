@@ -8,7 +8,7 @@ interface Props {
   title?: string;
 }
 
-const layout: React.FC<Props> = ({ children, title }) => {
+const Layout: React.FC<Props> = ({ children, title }) => {
   return (
     <div className="bg-[#161616] -z-50">
       <Head>
@@ -58,4 +58,4 @@ const layout: React.FC<Props> = ({ children, title }) => {
   );
 };
 
-export default layout;
+export default Layout;
