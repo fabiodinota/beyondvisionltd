@@ -60,7 +60,7 @@ const InquiryForm = () => {
         <div className="floating-label-group pb-12 w-full">
           <textarea
             id="username"
-            className="form-control bg-transparent border-b-4 w-full border-yellow text-text placeholder:text-placeholders focus:outline-none"
+            className="form-control bg-transparent border-b-4 w-full text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
             required
@@ -72,7 +72,7 @@ const InquiryForm = () => {
         <div className="floating-label-group pb-12 w-full">
           <textarea
             id="username"
-            className="form-control bg-transparent border-b-4 w-full border-yellow text-text placeholder:text-placeholders focus:outline-none"
+            className="form-control bg-transparent border-b-4 w-full text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
             required
