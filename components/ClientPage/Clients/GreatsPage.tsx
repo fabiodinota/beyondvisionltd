@@ -59,12 +59,12 @@ const GreatsPage = () => {
             </p>
             <div className="flex flex-row justify-start items-center pt-2">
               <div className="pr-2 pt-2">
-                <a href="">
+                <a href="https://instagram.com/aaliyahhh.5280?igshid=YmMyMTA2M2Y=">
                   <Image src={Instagram} alt="social" />
                 </a>
               </div>
               <div className="px-2 w-[48px] origin-top p-0 h-auto">
-                <a className="w-full h-full" href="">
+                <a className="w-full h-full" href="https://vm.tiktok.com/ZMN6jsUc4/">
                   <Image layout="responsive" src={TikTok} alt="social" />
                 </a>
               </div>
