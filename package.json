@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.5",
     "aos": "^2.3.4",
     "framer-motion": "^6.3.16",
     "kill-port": "^2.0.1",

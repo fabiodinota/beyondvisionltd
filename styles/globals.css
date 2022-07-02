@@ -22,8 +22,44 @@
     grid-gap: 20px;
     padding: 20px;
   }
+  .floating-label-group {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .floating-label {
+    font-size: 20px;
 
+    position: absolute;
+    pointer-events: none;
+    top: 0px;
+    left: 12px;
+    transition: all 0.1s ease;
+  }
+  input:focus ~ .floating-label,
+  input:not(:focus):valid ~ .floating-label {
+    top: -35px;
+    bottom: 0px;
+    left: 0px;
+    font-size: 20px;
+    opacity: 1;
+    color: #404040;
+  }
+  textarea:focus ~ .floating-label,
+  textarea:not(:focus):valid ~ .floating-label {
+    top: -35px;
+    bottom: 0px;
+    left: 0px;
+    font-size: 20px;
+    opacity: 1;
+    color: #404040;
+  }
   .grid-container {
     grid-template-columns: repeat(auto-fill, minmax(0, 316px));
+  }
+  .safari {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
   }
 }
