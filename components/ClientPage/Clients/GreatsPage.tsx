@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Main from "../../../public/images/ClientsImages/Greats.png";
-import Socials from "./Socials";
+import TikTok from "../../../public/images/tiktok.png";
+import Instagram from "../../../public/images/Instagram.png";
 
 const GreatsPage = () => {
   return (
@@ -56,10 +57,18 @@ const GreatsPage = () => {
             >
               .
             </p>
-            <Socials
-              instagram="https://instagram.com/farrisfilms?igshid=YmMyMTA2M2Y="
-              tiktok="https://vm.tiktok.com/ZMN6j2bnG/"
-            />
+            <div className="flex flex-row justify-start items-center pt-2">
+              <div className="pr-2 pt-2">
+                <a href="">
+                  <Image src={Instagram} alt="social" />
+                </a>
+              </div>
+              <div className="px-2 w-[48px] origin-top p-0 h-auto">
+                <a className="w-full h-full" href="">
+                  <Image layout="responsive" src={TikTok} alt="social" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>

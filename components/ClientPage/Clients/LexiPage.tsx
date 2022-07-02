@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Main from "../../../public/images/ClientsImages/Lexi.png";
-import Socials from "./Socials";
+import TikTok from "../../../public/images/tiktok.png";
+import Instagram from "../../../public/images/Instagram.png";
 
 const IszyPage = () => {
   return (
@@ -59,10 +60,18 @@ const IszyPage = () => {
               amazed me by showing me how much I am worth to these brands which
               I had no idea about. &rdquo;
             </p>
-            <Socials
-              instagram="https://instagram.com/farrisfilms?igshid=YmMyMTA2M2Y="
-              tiktok="https://vm.tiktok.com/ZMN6j2bnG/"
-            />
+            <div className="flex flex-row justify-start items-center pt-2">
+              <div className="pr-2 pt-2">
+                <a href="">
+                  <Image src={Instagram} alt="social" />
+                </a>
+              </div>
+              <div className="px-2 w-[48px] origin-top p-0 h-auto">
+                <a className="w-full h-full" href="">
+                  <Image layout="responsive" src={TikTok} alt="social" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Main from "../../../public/images/ClientsImages/Jordan.png";
-import Socials from "./Socials";
+import TikTok from "../../../public/images/tiktok.png";
+import Instagram from "../../../public/images/Instagram.png";
 
 const IszyPage = () => {
   return (
@@ -46,9 +47,12 @@ const IszyPage = () => {
             </p>
             <br />
             <br />
-            <h3  data-aos="fade-up"
+            <h3
+              data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="450" className="text-[20px] pb-5 text-yellow font-semibold">
+              data-aos-delay="450"
+              className="text-[20px] pb-5 text-yellow font-semibold"
+            >
               Review
             </h3>
             <p
@@ -66,13 +70,18 @@ const IszyPage = () => {
               bring in for me at prices I wouldn&apos;t believe to be realistic
               previously, I&apos;m looking forward to the future! &rdquo;
             </p>
-            <Socials
-             data-aos="fade-up"
-             data-aos-duration="700"
-             data-aos-delay="300"
-              instagram="https://instagram.com/farrisfilms?igshid=YmMyMTA2M2Y="
-              tiktok="https://vm.tiktok.com/ZMN6j2bnG/"
-            />
+            <div className="flex flex-row justify-start items-center pt-2">
+              <div className="pr-2 pt-2">
+                <a href="">
+                  <Image src={Instagram} alt="social" />
+                </a>
+              </div>
+              <div className="px-2 w-[48px] origin-top p-0 h-auto">
+                <a className="w-full h-full" href="">
+                  <Image layout="responsive" src={TikTok} alt="social" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
