@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useForm } from "@formspree/react";
 
 const InquiryForm = () => {
-  const [state, handleSubmit] = useForm("mvolneap");
+  const [state, handleSubmit] = useForm("xzboqnwj");
   const [amountSocial, setAmountSocial] = useState([{social: ""}]);
 
   const handleClick = () => { 

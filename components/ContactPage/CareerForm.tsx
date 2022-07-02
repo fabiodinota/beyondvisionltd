@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "@formspree/react";
 
 const InquiryForm = () => {
-  const [state, handleSubmit] = useForm("mvolneap");
+  const [state, handleSubmit] = useForm("xlezkqvl");
   return (
     <>
       <form

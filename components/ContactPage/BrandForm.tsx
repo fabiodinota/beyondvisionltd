@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "@formspree/react";
 
 const InquiryForm = () => {
-  const [state, handleSubmit] = useForm("mvolneap");
+  const [state, handleSubmit] = useForm("xyyoarvd");
   const currencies = [
     { cc: "AED", symbol: "\u062f.\u0625;", name: "UAE dirham" },
     { cc: "AFN", symbol: "Afs", name: "Afghan afghani" },
