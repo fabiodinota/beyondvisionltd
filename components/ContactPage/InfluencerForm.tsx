@@ -3,16 +3,16 @@ import { useForm } from "@formspree/react";
 
 const InquiryForm = () => {
   const [state, handleSubmit] = useForm("xzboqnwj");
-  const [amountSocial, setAmountSocial] = useState([{social: ""}]);
+  const [amountSocial, setAmountSocial] = useState([{ social: "" }]);
 
-  const handleClick = () => { 
-      setAmountSocial([...amountSocial, {social: ""}]);
-  }
+  const handleClick = () => {
+    setAmountSocial([...amountSocial, { social: "" }]);
+  };
   const handleSocialRemove = () => {
     const newSocial = [...amountSocial];
     newSocial.splice(0, 1);
     setAmountSocial(newSocial);
-  }
+  };
 
   return (
     <>
@@ -69,16 +69,25 @@ const InquiryForm = () => {
           </label>
         </div>
         <div className="flex w-full items-center justify-between">
-        <p className="text-text text-[20px] pb-10 font-semibold">
-          Add Social Media Account
-        </p>
-        <div>
-        <button onClick={() => handleSocialRemove()} className="text-text text-[35px] pb-10 font-semibold pr-2">-</button>
-        <button onClick={handleClick} className="text-text text-[35px] pb-10 font-semibold pl-2">+</button>
+          <p className="text-text text-[20px] pb-10 font-semibold">
+            Add Social Media Account
+          </p>
+          <div>
+            <button
+              onClick={() => handleSocialRemove()}
+              className="text-text text-[35px] pb-10 font-semibold pr-2"
+            >
+              -
+            </button>
+            <button
+              onClick={handleClick}
+              className="text-text text-[35px] pb-10 font-semibold pl-2"
+            >
+              +
+            </button>
+          </div>
         </div>
-       
-        </div>
-        {amountSocial.map((_social, index) => ( 
+        {amountSocial.map((_social, index) => (
           <div key={index} className="floating-label-group pb-12 w-full">
             <input
               type="text"
@@ -87,11 +96,10 @@ const InquiryForm = () => {
               autoComplete="off"
               autoFocus
               required
-            
             />
             <label className="floating-label text-placeholders">URL</label>
-            </div>
-            ))}
+          </div>
+        ))}
         <div className="floating-label-group pb-8 w-full">
           <textarea
             id="username"

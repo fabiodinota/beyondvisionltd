@@ -42,7 +42,7 @@ const ClientPage = () => {
                 @Neknekmopotato
               </p>
               <button className="text-black rounded-full bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                <Link href="/about-us">View</Link>
+                <Link href="our-talents/iszy">View</Link>
               </button>
             </div>
             <div
@@ -61,7 +61,7 @@ const ClientPage = () => {
                 @subasx
               </p>
               <button className="text-black rounded-full  bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                <Link href="/about-us">View</Link>
+                <Link href="our-talents/subas">View</Link>
               </button>
             </div>
             <div
@@ -80,7 +80,7 @@ const ClientPage = () => {
                 @farrisfilms
               </p>
               <button className="text-black rounded-full  bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                <Link href="/about-us">View</Link>
+                <Link href="our-talents/farris">View</Link>
               </button>
             </div>
             <div className="flex justify-center items-center w-full flex-col">
@@ -100,7 +100,7 @@ const ClientPage = () => {
                   @OgJoseph
                 </p>
                 <button className="text-black rounded-full  bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                  <Link href="/about-us">View</Link>
+                  <Link href="our-talents/og">View</Link>
                 </button>
               </div>
             </div>
@@ -120,7 +120,7 @@ const ClientPage = () => {
                 @Latelywithlex
               </p>
               <button className="text-black rounded-full  bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                <Link href="/about-us">View</Link>
+                <Link href="our-talents/lexi">View</Link>
               </button>
             </div>
             <div
@@ -139,7 +139,7 @@ const ClientPage = () => {
                 @Thejordanroe21
               </p>
               <button className="text-black rounded-full  bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                <Link href="/about-us">View</Link>
+                <Link href="our-talents/jordan">View</Link>
               </button>
             </div>
             <div
@@ -158,7 +158,7 @@ const ClientPage = () => {
                 @Micheal701s
               </p>
               <button className="text-black rounded-full  bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                <Link href="/about-us">View</Link>
+                <Link href="our-talents/michael">View</Link>
               </button>
             </div>
             <div
@@ -182,7 +182,7 @@ const ClientPage = () => {
                 @_m0_g
               </p>
               <button className="text-black rounded-full  bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                <Link href="/about-us">View</Link>
+                <Link href="our-talents/mo">View</Link>
               </button>
             </div>
             <div
@@ -206,7 +206,7 @@ const ClientPage = () => {
                 @Thegreats_
               </p>
               <button className="text-black rounded-full  bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                <Link href="/about-us">View</Link>
+                <Link href="our-talents/greats">View</Link>
               </button>
             </div>
           </div>

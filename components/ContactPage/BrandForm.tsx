@@ -284,7 +284,7 @@ const InquiryForm = () => {
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pl-0 sm:pl-5">
           <input
-          placeholder="Currency"
+            placeholder="Currency"
             type="text"
             list="currency"
             id="username"
