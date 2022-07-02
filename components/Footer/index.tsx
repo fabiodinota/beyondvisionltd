@@ -13,17 +13,17 @@ const Footer = () => {
         </h1>
         <div className="flex flex-row justify-center items-center pt-2">
           <div className="px-2">
-            <a href="https://intagram.com/">
+            <a href="https://www.instagram.com/beyondvisionltd/">
               <Image src={Instagram} alt="social" />
             </a>
           </div>
           <div className="px-2">
-            <a href="https://linkedin.com/in/">
+            <a href="https://www.linkedin.com/company/beyond-vision-ltd/">
               <Image src={LinkedIn} alt="social" />
             </a>
           </div>
           <div className="px-2">
-            <a href="https://twitter.com/">
+            <a href="https://twitter.com/BeyondVisionLTD">
               <Image src={Twitter} alt="social" />
             </a>
           </div>

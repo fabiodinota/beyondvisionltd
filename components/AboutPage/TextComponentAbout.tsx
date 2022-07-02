@@ -62,7 +62,6 @@ const TextComponent = () => {
             Our slogan{" "}
           </h1>
           <p className="text-text">
-            Our goal is to turn our client&apos;s dreams into reality. Each of
             Our slogan is &ldquo;Looking Beyond the Vision&rdquo; because here
             at Beyond Vision, our priority is to help our clients look beyond
             the vision of their current aspirations and achieve greater than
