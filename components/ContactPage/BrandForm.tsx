@@ -3,6 +3,9 @@ import { useForm } from "@formspree/react";
 
 const InquiryForm = () => {
   const [state, handleSubmit] = useForm("xyyoarvd");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  };
   const currencies = [
     { cc: "AED", symbol: "\u062f.\u0625;", name: "UAE dirham" },
     { cc: "AFN", symbol: "Afs", name: "Afghan afghani" },
@@ -273,6 +276,7 @@ const InquiryForm = () => {
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pr-0 sm:pr-5">
           <input
+          min={0}
             type="number"
             id="username"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"

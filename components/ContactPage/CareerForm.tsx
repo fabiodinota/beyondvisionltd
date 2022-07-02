@@ -3,6 +3,9 @@ import { useForm } from "@formspree/react";
 
 const InquiryForm = () => {
   const [state, handleSubmit] = useForm("xlezkqvl");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  };
   return (
     <>
       <form

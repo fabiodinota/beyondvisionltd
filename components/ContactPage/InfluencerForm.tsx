@@ -3,8 +3,8 @@ import { useForm } from "@formspree/react";
 
 const InquiryForm = () => {
   const [state, handleSubmit] = useForm("xzboqnwj");
+ 
   const [amountSocial, setAmountSocial] = useState([{ social: "" }]);
-
   const handleClick = () => {
     setAmountSocial([...amountSocial, { social: "" }]);
   };
@@ -12,6 +12,9 @@ const InquiryForm = () => {
     const newSocial = [...amountSocial];
     newSocial.splice(0, 1);
     setAmountSocial(newSocial);
+  };
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
   };
 
   return (

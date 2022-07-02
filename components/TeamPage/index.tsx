@@ -30,12 +30,12 @@ const TeamPage = () => {
             family at Beyond Vision. day.
           </p>
         </div>
-        <div className="h-auto 3xl:h-[85%] max-w-[750px] w-full justify-self-center self-center xl:justify-self-end xl:self-end">
+        <div className="h-auto  max-w-[560px] w-full justify-self-center self-center xl:justify-self-end xl:self-end">
           <div
             data-aos="fade-up"
             data-aos-duration="700"
             data-aos-delay="0"
-            className="h-auto max-w-[750px] w-full"
+            className="h-auto max-w-[560px] w-full"
           >
             <Image
               src={Main}

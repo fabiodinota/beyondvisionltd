@@ -6,7 +6,7 @@ import Instagram from "../../../public/images/Instagram.png";
 
 const IszyPage = () => {
   return (
-    <div className="flex justify-center items-center w-full overflow-hidden">
+    <div className="flex justify-center items-center w-full h-full overflow-hidden">
       <section className="flex justify-center items-center max-w-[1220px] w-[90%] xl:w-full  flex-col mt-[100px] xl:mt-[150px]">
         <div className="flex justify-center items-center flex-wrap-reverse mt-8 md:mt-14 xl:mt-0 xl:flex-nowrap px-0 xl:mx-5 pb-[100px] flex-row pt-10">
           <div
@@ -47,13 +47,15 @@ const IszyPage = () => {
             </p>
             <br />
             <br />
-            <h3 className="text-[20px] pb-5 text-yellow font-semibold">
+            <h3 data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="450" className="text-[20px] pb-5 text-yellow font-semibold">
               Review
             </h3>
             <p
               data-aos="fade-up"
               data-aos-duration="700"
-              data-aos-delay="300"
+              data-aos-delay="600"
               className=" text-text font-semibold"
             >
               &ldquo;Before I was under Beyond vision management, I was very
@@ -65,7 +67,9 @@ const IszyPage = () => {
               things. I&lsquo;m very grateful to the team and I look forward to
               the future with the Beyond vision guys!&rdquo; day.
             </p>
-            <div className="flex flex-row justify-start items-center pt-2">
+            <div data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="750" className="flex flex-row justify-start items-center pt-2">
               <div className="pr-2 pt-2">
                 <a href="https://instagram.com/_iszym0?igshid=YmMyMTA2M2Y=">
                   <Image src={Instagram} alt="social" />

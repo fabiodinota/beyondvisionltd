@@ -27,7 +27,7 @@ const ClientPage = () => {
           {/* <div className="flex justify-center items-center max-w-[1220px] w-full"> */}
           <div className="grid grid-cols-3 max-w-[1220px] w-full gap-x-20 px-10 grid-container place-content-center place-items-center">
             <div
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="100"
               className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
@@ -46,7 +46,7 @@ const ClientPage = () => {
               </button>
             </div>
             <div
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="150"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
@@ -65,7 +65,7 @@ const ClientPage = () => {
               </button>
             </div>
             <div
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="200"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
@@ -85,7 +85,7 @@ const ClientPage = () => {
             </div>
             <div className="flex justify-center items-center w-full flex-col">
               <div
-                data-aos="fade-down"
+                data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="250"
                 className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
@@ -105,7 +105,7 @@ const ClientPage = () => {
               </div>
             </div>
             <div
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="300"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
@@ -124,7 +124,7 @@ const ClientPage = () => {
               </button>
             </div>
             <div
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="350"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
@@ -143,7 +143,7 @@ const ClientPage = () => {
               </button>
             </div>
             <div
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="400"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
@@ -162,7 +162,7 @@ const ClientPage = () => {
               </button>
             </div>
             <div
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="450"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
@@ -186,7 +186,7 @@ const ClientPage = () => {
               </button>
             </div>
             <div
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="500"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"

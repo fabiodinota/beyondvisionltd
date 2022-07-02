@@ -12,6 +12,7 @@ const Layout: React.FC<Props> = ({ children, title }) => {
   return (
     <div className="bg-[#161616] -z-50">
       <Head>
+        
         <title>{title}</title>
         <meta charSet="utf-8" />
         <link rel="shortcut icon" type="image/jpeg" href="/favicon.jpg" />
@@ -48,12 +49,16 @@ const Layout: React.FC<Props> = ({ children, title }) => {
           all different calibers all around the globe."
         />
         <meta name="twitter:image" content="https://i.imgur.com/Gd1N9JI.jpg" />
+        
       </Head>
       <header>
         <NavBar />
       </header>
       <main>{children}</main>
       <Footer />
+      
+      
+      
     </div>
   );
 };
