@@ -55,7 +55,7 @@ const HomePage = () => {
           />
         </div>
         <Image
-          className="fixed  no-select opacity-0 md:opacity-100 hidden md:block"
+          className="fixed  no-select opacity-100"
           src={Background}
           alt="background"
           layout="fill"
