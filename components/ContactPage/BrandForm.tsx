@@ -6,6 +6,7 @@ const InquiryForm = () => {
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
   };
+  
   const currencies = [
     { cc: "AED", symbol: "\u062f.\u0625;", name: "UAE dirham" },
     { cc: "AFN", symbol: "Afs", name: "Afghan afghani" },
