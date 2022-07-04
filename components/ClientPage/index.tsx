@@ -14,7 +14,7 @@ import Greats from "../../public/images/ClientsImages/Greats.png";
 const ClientPage = () => {
   return (
     <>
-      <div className="flex justify-center items-center w-full pb-10 flex-col">
+      <div className="flex justify-center items-center w-full pb-20 flex-col">
         <section className="mt-[150px] max-w-[1220px] w-full">
           <h1
             data-aos="fade-right"
@@ -25,7 +25,7 @@ const ClientPage = () => {
             Talent Roster
           </h1>
           {/* <div className="flex justify-center items-center max-w-[1220px] w-full"> */}
-          <div className="grid grid-cols-3 max-w-[1220px] w-full gap-x-20 px-10 grid-container place-content-center place-items-center">
+          <div className="grid max-w-[1220px] w-full gap-x-20 px-10 grid-container place-content-center place-items-center">
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -189,7 +189,7 @@ const ClientPage = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="500"
-              className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
+              className="rounded-3xl w-full h-full flex justify-center items-center py-10  pb-20 flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
                 <Image

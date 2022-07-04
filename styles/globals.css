@@ -11,7 +11,7 @@
   }
 }
 
-@layer component {
+@layer components {
   .nav-item {
     font-family: Raleway, sans-serif;
     fontweight: 500;
@@ -55,7 +55,7 @@
     color: #404040;
   }
   .grid-container {
-    grid-template-columns: repeat(auto-fill, minmax(0, 316px));
+    grid-template-columns: repeat(auto-fit, minmax(0, 316px));
   }
   .safari {
     -moz-appearance: none;

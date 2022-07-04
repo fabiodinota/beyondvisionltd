@@ -25,7 +25,7 @@ const HomePage = () => {
           <h1
             data-aos="fade-up"
             data-aos-duration="800"
-            className="text-[40px] xxs:text-[64px] xl:text-[96px] text-yellow leading-[100%] font-bold "
+            className="text-[40px] xxs:text-[54px] xl:text-[84px] text-yellow leading-[100%] font-bold "
           >
             Looking <br></br> Beyond <br></br>the Vision
           </h1>
@@ -55,7 +55,7 @@ const HomePage = () => {
           />
         </div>
         <Image
-          className="fixed  no-select opacity-100"
+          className="fixed  no-select opacity-50 md:opacity-100"
           src={Background}
           alt="background"
           layout="fill"

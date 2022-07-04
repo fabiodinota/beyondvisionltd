@@ -9,6 +9,8 @@ const InquiryForm = () => {
   return (
     <>
       <form
+      action="https://formspree.io/f/mvolneap"
+      method="POST"
         onSubmit={handleSubmit}
         className="flex flex-row flex-wrap w-full pt-10"
       >

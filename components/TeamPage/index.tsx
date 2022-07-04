@@ -35,7 +35,7 @@ const TeamPage = () => {
             data-aos="fade-up"
             data-aos-duration="700"
             data-aos-delay="0"
-            className="h-auto max-w-[560px] w-full"
+            className="h-auto max-w-[500px] w-full"
           >
             <Image
               src={Main}
