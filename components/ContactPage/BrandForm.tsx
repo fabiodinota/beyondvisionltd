@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "@formspree/react";
 
 const InquiryForm = () => {
-  const [state, handleSubmit] = useForm("xyyoarvd");
+  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_BRANDFORM as string);
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
   };

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useForm } from "@formspree/react";
 
 const InquiryForm = () => {
-  const [state, handleSubmit] = useForm("xzboqnwj");
+  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_INFLUENCERFORM as string);
  
   const [amountSocial, setAmountSocial] = useState([{ social: "" }]);
   const handleClick = () => {
