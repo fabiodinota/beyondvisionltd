@@ -52,7 +52,7 @@ const TeamPage = () => {
           </h1>
           <p className=" text-textaccent text-[16px] pb-5">Founder & Ceo</p>
           <p className="text-text w-full pb-5">
-            I founded Beyond Vision in April of 2022 and since that moment I
+            I founded Beyond Vision in March of 2022 and since that moment I
             have loved every second and never looked back. Overall, the feeling
             of essentially changing someone&apos;s life for the astronomical
             good is such a privilege and an exhilarating and phenomenal feeling.
