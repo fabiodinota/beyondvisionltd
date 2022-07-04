@@ -22,7 +22,7 @@ const ServicesCard = () => {
           </div>
           <h3 className="text[20px] text-text">Social Media Management</h3>
           <p className="text-textaccent pb-10 text-center w-full md:w-[320px] 1xl:w-full px-5 text-[13px]">
-            TikTok | Instagram | Twitch Snapchat | Twitter
+            TikTok | Instagram | Twitch | Snapchat | Twitter
           </p>
         </div>
         <div
