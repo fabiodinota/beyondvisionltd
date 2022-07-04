@@ -4,7 +4,7 @@ import { useForm, ValidationError } from "@formspree/react";
 const InquiryForm = () => {
   const [state, handleSubmit] = useForm("xyyoarvd");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p className="text-text">Thanks for joining!</p>;
   };
   
   const currencies = [
