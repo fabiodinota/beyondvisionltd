@@ -61,14 +61,7 @@ const IszyPage = () => {
               data-aos-delay="600"
               className=" text-text font-semibold"
             >
-              &ldquo;Before I was under Beyond vision management, I was very
-              unsure about what to ask for regarding brand deals, which led me
-              to severely undercharge a few times, which I&lsquo;ve now figured
-              out. The team at beyond vision not only showed me my worth but
-              supported me every step along the way in every way possible they
-              are always there offering a helping hand even with the smallest
-              things. I&lsquo;m very grateful to the team and I look forward to
-              the future with the Beyond vision guys!&rdquo; day.
+              &ldquo;After 8 months since my account was monetized, the management reached out to me and helped me grow as a content creator. I got used to managing myself, speaking to brands, and setting my rates. I thought I was good at it which is why I took a lot of time thinking about letting the management handle me. For starters, I doubted them since they were recently founded and I wasn&apos;t looking for management. From thereupon I decided to give it a try and from that moment, they never failed me. Beyond Vision is a safe, loyal, supportive, and amazing community for content creators, I&apos;m a witness to that.&rdquo;
             </p>
             <div
               data-aos="fade-up"
