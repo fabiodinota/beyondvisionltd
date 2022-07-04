@@ -44,9 +44,12 @@ const IszyPage = () => {
             </p>
             <br />
             <br />
-            <h3 data-aos="fade-up"
+            <h3
+              data-aos="fade-up"
               data-aos-duration="700"
-              data-aos-delay="450" className="text-[20px] pb-5 text-yellow font-semibold">
+              data-aos-delay="450"
+              className="text-[20px] pb-5 text-yellow font-semibold"
+            >
               Review
             </h3>
             <p
@@ -61,16 +64,22 @@ const IszyPage = () => {
               it&lsquo;s to see how I am doing or if they can help me out with
               anything at all. &rdquo;
             </p>
-            <div data-aos="fade-up"
+            <div
+              data-aos="fade-up"
               data-aos-duration="700"
-              data-aos-delay="750" className="flex flex-row justify-start items-center pt-2">
+              data-aos-delay="750"
+              className="flex flex-row justify-start items-center pt-2"
+            >
               <div className="pr-2 pt-2">
                 <a href="https://instagram.com/thejordanroe21?igshid=YmMyMTA2M2Y=">
                   <Image src={Instagram} alt="social" />
                 </a>
               </div>
               <div className="px-2 w-[48px] origin-top p-0 h-auto">
-                <a className="w-full h-full" href="https://vm.tiktok.com/ZMN6j2TfT/">
+                <a
+                  className="w-full h-full"
+                  href="https://vm.tiktok.com/ZMN6j2TfT/"
+                >
                   <Image layout="responsive" src={TikTok} alt="social" />
                 </a>
               </div>

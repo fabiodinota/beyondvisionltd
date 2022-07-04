@@ -4,9 +4,14 @@ import { useForm, ValidationError } from "@formspree/react";
 const InquiryForm = () => {
   const [state, handleSubmit] = useForm("xyyoarvd");
   if (state.succeeded) {
-    return <p className="text-text">Thanks for joining!</p>;
-  };
-  
+    return (
+      <p className="text-text py-10 font-semibold w-[400px]">
+        Thanks for sending a submission! We&apos;ll review it thoroughly and
+        you&apos;ll hear back from us as soon as possible
+      </p>
+    );
+  }
+
   const currencies = [
     { cc: "AED", symbol: "\u062f.\u0625;", name: "UAE dirham" },
     { cc: "AFN", symbol: "Afs", name: "Afghan afghani" },
@@ -200,8 +205,8 @@ const InquiryForm = () => {
   return (
     <>
       <form
-      action="https://formspree.io/f/xyyoarvd"
-      method="POST"
+        action="https://formspree.io/f/xyyoarvd"
+        method="POST"
         onSubmit={handleSubmit}
         className="flex flex-row flex-wrap w-full pt-10"
       >
@@ -217,16 +222,15 @@ const InquiryForm = () => {
           />
           <label className="floating-label text-placeholders">First Name</label>
           <ValidationError
-        prefix="Name"
-        field="username"
-        errors={state.errors}
-      />
+            prefix="Please enter your first name."
+            field="username"
+            errors={state.errors}
+          />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pl-0 sm:pl-5">
           <input
             type="text"
             name="lastname"
-
             id="username"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
@@ -237,29 +241,28 @@ const InquiryForm = () => {
             Last Name
           </label>
           <ValidationError
-        prefix="Name"
-        field="username"
-        errors={state.errors}
-      />
+            prefix="Please enter your last name."
+            field="username"
+            errors={state.errors}
+          />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pr-0 sm:pr-5">
           <input
             type="email"
             name="email"
-
             id="email"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
             required
           />
-          
+
           <label className="floating-label text-placeholders">Email</label>
           <ValidationError
-        prefix="Email"
-        field="email"
-        errors={state.errors}
-      />
+            prefix="Please enter a valid email adress."
+            field="email"
+            errors={state.errors}
+          />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pl-0 sm:pl-5">
           <input
@@ -268,7 +271,6 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             name="phone"
-
             autoFocus
             required
           />
@@ -276,10 +278,10 @@ const InquiryForm = () => {
             Phone Number
           </label>
           <ValidationError
-        prefix="Phone"
-        field="phone"
-        errors={state.errors}
-      />
+            prefix="Please enter your phone number."
+            field="phone"
+            errors={state.errors}
+          />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pr-0 sm:pr-5">
           <input
@@ -289,15 +291,14 @@ const InquiryForm = () => {
             autoComplete="off"
             autoFocus
             name="company"
-
             required
           />
           <label className="floating-label text-placeholders">Company</label>
           <ValidationError
-        prefix="Company"
-        field="company"
-        errors={state.errors}
-      />
+            prefix="Please enter a company name."
+            field="company"
+            errors={state.errors}
+          />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pl-0 sm:pl-5">
           <input
@@ -307,36 +308,34 @@ const InquiryForm = () => {
             autoComplete="off"
             autoFocus
             name="industry"
-
             required
           />
           <label className="floating-label text-placeholders pl-0 sm:pl-5">
             Industry
           </label>
           <ValidationError
-        prefix="Industry"
-        field="industry"
-        errors={state.errors}
-      />
+            prefix="Please enter a industry."
+            field="industry"
+            errors={state.errors}
+          />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pr-0 sm:pr-5">
           <input
-          min={0}
+            min={0}
             type="number"
             id="budget"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
             name="budget"
-
             required
           />
           <label className="floating-label text-placeholders">Budget</label>
           <ValidationError
-        prefix="Budget"
-        field="budget"
-        errors={state.errors}
-      />
+            prefix="Please enter a budget."
+            field="budget"
+            errors={state.errors}
+          />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pl-0 sm:pl-5">
           <input
@@ -344,7 +343,6 @@ const InquiryForm = () => {
             type="text"
             list="currency"
             name="currency"
-
             id="username"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
@@ -369,17 +367,16 @@ const InquiryForm = () => {
             autoComplete="off"
             autoFocus
             name="moreInfo"
-
             required
           />
           <label className="floating-label text-placeholders">
             Tell us more
           </label>
           <ValidationError
-        prefix="More"
-        field="tellUsMore"
-        errors={state.errors}
-      />
+            prefix="Please fill in this field."
+            field="tellUsMore"
+            errors={state.errors}
+          />
         </div>
         <p className="text-text text-[20px] pb-10 font-semibold">
           What is the target audience you&apos;re trying to achieve
@@ -449,9 +446,7 @@ const InquiryForm = () => {
         >
           Submit
         </button>
-        <ValidationError
-        errors={state.errors}
-      />
+        <ValidationError errors={state.errors} />
       </form>
     </>
   );

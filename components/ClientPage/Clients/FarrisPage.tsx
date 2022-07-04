@@ -48,9 +48,12 @@ const FarrisPage = () => {
             </p>
             <br />
             <br />
-            <h3 data-aos="fade-up"
+            <h3
+              data-aos="fade-up"
               data-aos-duration="700"
-              data-aos-delay="450" className="text-[20px] pb-5 text-yellow font-semibold">
+              data-aos-delay="450"
+              className="text-[20px] pb-5 text-yellow font-semibold"
+            >
               Review
             </h3>
             <p
@@ -68,16 +71,22 @@ const FarrisPage = () => {
               things. I&lsquo;m very grateful to the team and I look forward to
               the future with the Beyond vision guys!&rdquo; day.
             </p>
-            <div data-aos="fade-up"
+            <div
+              data-aos="fade-up"
               data-aos-duration="700"
-              data-aos-delay="750" className="flex flex-row justify-start items-center pt-2">
+              data-aos-delay="750"
+              className="flex flex-row justify-start items-center pt-2"
+            >
               <div className="pr-2 pt-2">
                 <a href="https://instagram.com/farrisfilms?igshid=YmMyMTA2M2Y=">
                   <Image src={Instagram} alt="social" />
                 </a>
               </div>
               <div className="px-2 w-[48px] origin-top p-0 h-auto">
-                <a className="w-full h-full" href="https://vm.tiktok.com/ZMN6j2bnG/">
+                <a
+                  className="w-full h-full"
+                  href="https://vm.tiktok.com/ZMN6j2bnG/"
+                >
                   <Image layout="responsive" src={TikTok} alt="social" />
                 </a>
               </div>

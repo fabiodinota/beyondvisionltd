@@ -73,8 +73,9 @@ const TeamPage = () => {
           </h1>
           <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
           <p className="text-text w-full pb-5">
-            &ldquo;I love being here, my co-workers, our talents, the setting as a whole, it&apos;s all just perfect in-fact id say this went from a so-called job to a hobby of mine.
-&rdquo;
+            &ldquo;I love being here, my co-workers, our talents, the setting as
+            a whole, it&apos;s all just perfect in-fact id say this went from a
+            so-called job to a hobby of mine. &rdquo;
           </p>
           <p className="text-text font-semibold">
             &gt;{" "}
@@ -92,7 +93,7 @@ const TeamPage = () => {
           </h1>
           <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
           <p className="text-text w-full pb-5">
-          &ldquo;I love it here!!&rdquo;
+            &ldquo;I love it here!!&rdquo;
           </p>
           <p className="text-text font-semibold">
             &gt;{" "}
@@ -151,7 +152,12 @@ const TeamPage = () => {
             Talent Manager & Content Strategist
           </p>
           <p className="text-text w-full pb-5">
-          &ldquo;Working at Beyond Vision is quite honestly a bit of a dream come true for me, I&apos;ve always loved the management aspect of things, it&apos;s a passion. The other thing I cherish is social media and these talented people who incredibly manage to create so much amazing content for their audience to enjoy. Combine them and it equals my job at Beyond Vision.&rdquo;
+            &ldquo;Working at Beyond Vision is quite honestly a bit of a dream
+            come true for me, I&apos;ve always loved the management aspect of
+            things, it&apos;s a passion. The other thing I cherish is social
+            media and these talented people who incredibly manage to create so
+            much amazing content for their audience to enjoy. Combine them and
+            it equals my job at Beyond Vision.&rdquo;
           </p>
           <p className="text-text font-semibold">
             &gt;{" "}
@@ -169,7 +175,9 @@ const TeamPage = () => {
           </h1>
           <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
           <p className="text-text w-full pb-5">
-            &ldquo;To change the lives of these amazing people who serve it is such an extraordinary feeling, it&apos;s why I do what I do and I always will!&rdquo;
+            &ldquo;To change the lives of these amazing people who serve it is
+            such an extraordinary feeling, it&apos;s why I do what I do and I
+            always will!&rdquo;
           </p>
           <p className="text-text font-semibold">
             &gt;{" "}
@@ -187,7 +195,11 @@ const TeamPage = () => {
           </h1>
           <p className=" text-textaccent text-[16px] pb-5">President</p>
           <p className="text-text w-full pb-5">
-          &ldquo;Working here at Beyond Vision has been tremendous! I can honestly say, I have the best job in the world. I get to wake up each morning and help each of our many hard-working and determined clients we have at Beyond Vision reach their aspirations and change their lives for good!&rdquo; 
+            &ldquo;Working here at Beyond Vision has been tremendous! I can
+            honestly say, I have the best job in the world. I get to wake up
+            each morning and help each of our many hard-working and determined
+            clients we have at Beyond Vision reach their aspirations and change
+            their lives for good!&rdquo;
           </p>
           <p className="text-text font-semibold">
             &gt;{" "}

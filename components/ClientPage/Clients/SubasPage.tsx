@@ -70,16 +70,22 @@ const IszyPage = () => {
               bring in for me at prices I wouldn&apos;t believe to be realistic
               previously, I&apos;m looking forward to the future! &rdquo;
             </p>
-            <div data-aos="fade-up"
+            <div
+              data-aos="fade-up"
               data-aos-duration="700"
-              data-aos-delay="750"  className="flex flex-row justify-start items-center pt-2">
+              data-aos-delay="750"
+              className="flex flex-row justify-start items-center pt-2"
+            >
               <div className="pr-2 pt-2">
                 <a href="https://instagram.com/shres.subas?igshid=YmMyMTA2M2Y=">
                   <Image src={Instagram} alt="social" />
                 </a>
               </div>
               <div className="px-2 w-[48px] origin-top p-0 h-auto">
-                <a className="w-full h-full" href="https://vm.tiktok.com/ZMNjwVjwA/">
+                <a
+                  className="w-full h-full"
+                  href="https://vm.tiktok.com/ZMNjwVjwA/"
+                >
                   <Image layout="responsive" src={TikTok} alt="social" />
                 </a>
               </div>
