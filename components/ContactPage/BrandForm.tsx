@@ -430,8 +430,6 @@ const InquiryForm = () => {
           Submit
         </button>
         <ValidationError
-        prefix="Submit"
-        field="submit"
         errors={state.errors}
       />
       </form>
