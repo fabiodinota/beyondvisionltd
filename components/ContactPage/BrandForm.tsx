@@ -1,8 +1,8 @@
 import React from "react";
-import { useForm } from "@formspree/react";
+import { useForm, ValidationError } from "@formspree/react";
 
 const InquiryForm = () => {
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_BRANDFORM as string);
+  const [state, handleSubmit] = useForm("xyyoarvd");
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
   };
@@ -215,6 +215,11 @@ const InquiryForm = () => {
             required
           />
           <label className="floating-label text-placeholders">First Name</label>
+          <ValidationError
+        prefix="Name"
+        field="username"
+        errors={state.errors}
+      />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pl-0 sm:pl-5">
           <input
@@ -228,22 +233,33 @@ const InquiryForm = () => {
           <label className="floating-label text-placeholders pl-0 sm:pl-5">
             Last Name
           </label>
+          <ValidationError
+        prefix="Name"
+        field="username"
+        errors={state.errors}
+      />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pr-0 sm:pr-5">
           <input
             type="email"
-            id="username"
+            id="email"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
             required
           />
+          
           <label className="floating-label text-placeholders">Email</label>
+          <ValidationError
+        prefix="Email"
+        field="email"
+        errors={state.errors}
+      />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pl-0 sm:pl-5">
           <input
             type="tel"
-            id="username"
+            id="phone"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
@@ -252,22 +268,32 @@ const InquiryForm = () => {
           <label className="floating-label text-placeholders pl-0 sm:pl-5">
             Phone Number
           </label>
+          <ValidationError
+        prefix="Phone"
+        field="phone"
+        errors={state.errors}
+      />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pr-0 sm:pr-5">
           <input
             type="text"
-            id="username"
+            id="company"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
             required
           />
           <label className="floating-label text-placeholders">Company</label>
+          <ValidationError
+        prefix="Company"
+        field="company"
+        errors={state.errors}
+      />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pl-0 sm:pl-5">
           <input
             type="text"
-            id="username"
+            id="industry"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
@@ -276,18 +302,28 @@ const InquiryForm = () => {
           <label className="floating-label text-placeholders pl-0 sm:pl-5">
             Industry
           </label>
+          <ValidationError
+        prefix="Industry"
+        field="industry"
+        errors={state.errors}
+      />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pr-0 sm:pr-5">
           <input
           min={0}
             type="number"
-            id="username"
+            id="budget"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
             required
           />
           <label className="floating-label text-placeholders">Budget</label>
+          <ValidationError
+        prefix="Budget"
+        field="budget"
+        errors={state.errors}
+      />
         </div>
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pl-0 sm:pl-5">
           <input
@@ -313,7 +349,7 @@ const InquiryForm = () => {
         </div>
         <div className="floating-label-group pb-8 w-full">
           <textarea
-            id="username"
+            id="tellUsMore"
             className="form-control bg-transparent border-b-4 w-full text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
@@ -322,6 +358,11 @@ const InquiryForm = () => {
           <label className="floating-label text-placeholders">
             Tell us more
           </label>
+          <ValidationError
+        prefix="More"
+        field="tellUsMore"
+        errors={state.errors}
+      />
         </div>
         <p className="text-text text-[20px] pb-10 font-semibold">
           What is the target audience you&apos;re trying to achieve
@@ -383,10 +424,16 @@ const InquiryForm = () => {
         <button
           className="text-black rounded-full  bg-yellow h-[70px] w-full shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]"
           type="submit"
+          id="submit"
           disabled={state.submitting}
         >
           Submit
         </button>
+        <ValidationError
+        prefix="Submit"
+        field="submit"
+        errors={state.errors}
+      />
       </form>
     </>
   );

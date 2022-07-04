@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import ContactMain from "../../public/images/Contact/ContactMain.png";
-import { useForm } from "@formspree/react";
 import InquiryForm from "./InquiryForm";
 import CareerForm from "./CareerForm";
 import BrandForm from "./BrandForm";
@@ -14,12 +13,7 @@ const ContactPage = () => {
     brand: "Work with us - Brand",
     influencer: "Work with us - Influencers",
   };
-
-  const [state, handleSubmit] = useForm("mvolneap");
   const [select, setSelect] = useState("inquiry");
-  if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
-  }
   const handleChange = (event: any) => {
     setSelect(event.target.value);
   };
