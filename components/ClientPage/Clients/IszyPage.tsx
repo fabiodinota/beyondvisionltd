@@ -61,7 +61,16 @@ const IszyPage = () => {
               data-aos-delay="600"
               className=" text-text font-semibold"
             >
-              &ldquo;After 8 months since my account was monetized, the management reached out to me and helped me grow as a content creator. I got used to managing myself, speaking to brands, and setting my rates. I thought I was good at it which is why I took a lot of time thinking about letting the management handle me. For starters, I doubted them since they were recently founded and I wasn&apos;t looking for management. From thereupon I decided to give it a try and from that moment, they never failed me. Beyond Vision is a safe, loyal, supportive, and amazing community for content creators, I&apos;m a witness to that.&rdquo;
+              &ldquo;After 8 months since my account was monetized, the
+              management reached out to me and helped me grow as a content
+              creator. I got used to managing myself, speaking to brands, and
+              setting my rates. I thought I was good at it which is why I took a
+              lot of time thinking about letting the management handle me. For
+              starters, I doubted them since they were recently founded and I
+              wasn&apos;t looking for management. From thereupon I decided to
+              give it a try and from that moment, they never failed me. Beyond
+              Vision is a safe, loyal, supportive, and amazing community for
+              content creators, I&apos;m a witness to that.&rdquo;
             </p>
             <div
               data-aos="fade-up"

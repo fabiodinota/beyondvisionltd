@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Background from "../../public/images/home-bg.png";
 import Phone from "../../public/images/phone-home.png";
 import ServicesCard from "./ServicesCard";
@@ -54,6 +54,7 @@ const HomePage = () => {
             alt="phone with social media statson inlcuding: likes, followers and views."
           />
         </div>
+
         <Image
           className="fixed  no-select opacity-50 md:opacity-100"
           src={Background}

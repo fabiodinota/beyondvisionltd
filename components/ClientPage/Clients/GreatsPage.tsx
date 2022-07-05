@@ -60,7 +60,12 @@ const GreatsPage = () => {
               data-aos-delay="600"
               className=" text-text font-semibold"
             >
-              &ldquo;Working with Beyond Vision has truly been a great pleasure. We have a great relationship with the agency and we look forward to working with them in the future. At beyond vision they treat their clients like family, and we have such trust in them and the work they are doing for us. They are always professional, attentive, and helpful!&rdquo;
+              &ldquo;Working with Beyond Vision has truly been a great pleasure.
+              We have a great relationship with the agency and we look forward
+              to working with them in the future. At beyond vision they treat
+              their clients like family, and we have such trust in them and the
+              work they are doing for us. They are always professional,
+              attentive, and helpful!&rdquo;
             </p>
             <div
               ata-aos="fade-up"
