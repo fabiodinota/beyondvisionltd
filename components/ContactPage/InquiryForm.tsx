@@ -24,6 +24,7 @@ const InquiryForm = () => {
             type="text"
             id="firstname"
             name="firstname"
+            
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus

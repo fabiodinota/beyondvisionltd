@@ -32,7 +32,7 @@ const ClientPage = () => {
               data-aos-delay="100"
               className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
-              <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
+              <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
                 <Image layout="responsive" src={Iszy} alt="image" />
               </div>
               <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
