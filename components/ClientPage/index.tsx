@@ -155,7 +155,7 @@ const ClientPage = () => {
                 Michael Sampsill
               </h3>
               <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
-                @Micheal701s
+                @Michael701s
               </p>
               <button className="text-black rounded-full  bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
                 <Link href="our-talents/michael">View</Link>
