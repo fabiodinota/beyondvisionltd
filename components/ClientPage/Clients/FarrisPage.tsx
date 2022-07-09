@@ -69,7 +69,7 @@ const FarrisPage = () => {
               supported me every step along the way in every way possible they
               are always there offering a helping hand even with the smallest
               things. I&lsquo;m very grateful to the team and I look forward to
-              the future with the Beyond vision guys!&rdquo; day.
+              the future with the Beyond vision guys!&rdquo;
             </p>
             <div
               data-aos="fade-up"
