@@ -53,7 +53,7 @@ const ServicesCard = () => {
             Michael Sampsill
           </h3>
           <p className="text-textaccent pb-10 text-center 1xl:w-full px-5 text-[13px]">
-            1.4 Million Followers
+            2.2 Million Followers
           </p>
         </div>
       </div>
