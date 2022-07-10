@@ -37,7 +37,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="firstName"
+            name="First Name"
             required
           />
           <label className="floating-label text-placeholders">First Name</label>
@@ -53,7 +53,7 @@ const InquiryForm = () => {
             id="lastname"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
-            name="lastname"
+            name="Last Name"
             autoFocus
             required
           />
@@ -70,7 +70,7 @@ const InquiryForm = () => {
           <input
             type="email"
             id="email"
-            name="email"
+            name="Email"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
@@ -90,7 +90,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="phone"
+            name="Phone Number"
             required
           />
           <label className="floating-label text-placeholders pl-0 sm:pl-5">
@@ -125,7 +125,7 @@ const InquiryForm = () => {
           <div key={index} className="floating-label-group pb-12 w-full">
             <input
               type="text"
-              name="social"
+              name="URL"
               id="social"
               className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
               autoComplete="off"
@@ -147,7 +147,7 @@ const InquiryForm = () => {
             autoComplete="off"
             autoFocus
             required
-            name="about"
+            name=" Tell us a bit about yourself and your content"
           />
           <label className="floating-label text-placeholders">
             Tell us a bit about yourself and your content

@@ -25,7 +25,7 @@ const InquiryForm = () => {
             id="username"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
-            name="firstname"
+            name="First Name"
             autoFocus
             required
           />
@@ -40,7 +40,7 @@ const InquiryForm = () => {
           <input
             type="text"
             id="lastname"
-            name="lastname"
+            name="Last Name"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
@@ -62,7 +62,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="email"
+            name="Email"
             required
           />
           <label className="floating-label text-placeholders">Email</label>
@@ -79,7 +79,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="phone"
+            name="Phone Number"
             required
           />
           <label className="floating-label text-placeholders pl-0 sm:pl-5">
@@ -97,7 +97,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="casestudies"
+            name="Tell us about your case studies"
             required
           />
           <label className="floating-label text-placeholders">
@@ -115,7 +115,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="why"
+            name="Why do you want a career at Beyond Vision?"
             required
           />
           <label className="floating-label text-placeholders">

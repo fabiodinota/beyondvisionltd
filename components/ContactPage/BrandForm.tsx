@@ -216,7 +216,7 @@ const InquiryForm = () => {
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pr-0 sm:pr-5">
           <input
             type="text"
-            name="firstname"
+            name="First Name"
             id="username"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
@@ -233,7 +233,7 @@ const InquiryForm = () => {
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pl-0 sm:pl-5">
           <input
             type="text"
-            name="lastname"
+            name="Last Name"
             id="username"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
@@ -252,7 +252,7 @@ const InquiryForm = () => {
         <div className="floating-label-group pb-12 w-full sm:w-[50%] pr-0 sm:pr-5">
           <input
             type="email"
-            name="email"
+            name="Email"
             id="email"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
@@ -273,7 +273,7 @@ const InquiryForm = () => {
             id="phone"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
-            name="phone"
+            name="Phone"
             autoFocus
             required
           />
@@ -293,7 +293,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="company"
+            name="Company"
             required
           />
           <label className="floating-label text-placeholders">Company</label>
@@ -310,7 +310,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="industry"
+            name="Industry"
             required
           />
           <label className="floating-label text-placeholders pl-0 sm:pl-5">
@@ -330,7 +330,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="budget"
+            name="Budget"
             required
           />
           <label className="floating-label text-placeholders">Budget</label>
@@ -345,7 +345,7 @@ const InquiryForm = () => {
             placeholder="Currency"
             type="text"
             list="currency"
-            name="currency"
+            name="Currency"
             id="username"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
@@ -369,7 +369,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="moreInfo"
+            name="Tell us more."
             required
           />
           <label className="floating-label text-placeholders">
@@ -388,7 +388,7 @@ const InquiryForm = () => {
           <input
             placeholder="Age"
             type="text"
-            name="age"
+            name="Age"
             list="age"
             id="username"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
@@ -406,7 +406,7 @@ const InquiryForm = () => {
           <input
             placeholder="Location"
             type="text"
-            name="location"
+            name="Location"
             list="location"
             id="username"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
@@ -426,7 +426,7 @@ const InquiryForm = () => {
           <input
             placeholder="Gender"
             type="text"
-            name="gender"
+            name="Gender"
             list="gender"
             id="username"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
