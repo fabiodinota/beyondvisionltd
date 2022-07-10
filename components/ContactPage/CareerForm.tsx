@@ -79,7 +79,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="Phone"
+            name="Phone Number"
             required
           />
           <label className="floating-label text-placeholders pl-0 sm:pl-5">
@@ -97,7 +97,7 @@ const InquiryForm = () => {
             className="form-control bg-transparent border-b-4 w-full text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             autoFocus
-            name="Case Studies"
+            name="Tell us about your case studies"
             required
           />
           <label className="floating-label text-placeholders">
