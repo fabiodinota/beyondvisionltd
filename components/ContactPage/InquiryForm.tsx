@@ -27,7 +27,7 @@ const InquiryForm = () => {
             
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
-            autoFocus
+            
             required
           />
           <label className="floating-label text-placeholders">First Name</label>
@@ -44,7 +44,7 @@ const InquiryForm = () => {
             name="lastname"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
-            autoFocus
+            
             required
           />
           <label className="floating-label text-placeholders pl-0 sm:pl-5">
@@ -63,7 +63,7 @@ const InquiryForm = () => {
             name="email"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
-            autoFocus
+            
             required
           />
           <label className="floating-label text-placeholders">Email</label>
@@ -79,7 +79,7 @@ const InquiryForm = () => {
             id="subject"
             className="form-control bg-transparent border-b-4 w-full text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
-            autoFocus
+            
             required
             name="subject"
           />
@@ -95,7 +95,7 @@ const InquiryForm = () => {
             id="inquiring"
             className="form-control bg-transparent border-b-4 w-full text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
-            autoFocus
+            
             required
             name="inquiring"
           />

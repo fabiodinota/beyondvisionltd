@@ -29,10 +29,11 @@ const NavBar = () => {
     <div>
       <nav className="relative z-[9999] w-full">
         <div
-          className={`ml-[40px] xs:ml-[75px] mt-[50px] absolute z-50 ${
+          className={`ml-[40px] xs:ml-[75px] mt-[50px] absolute z-50 cursor-pointer ${
             isOpen ? "fixed" : ""
           }`}
         >
+          <Link href="/">
           <Image
             src={Logo}
             // layout="responsive"
@@ -40,6 +41,8 @@ const NavBar = () => {
             width={73}
             alt="logo"
           />
+          </Link>
+          
         </div>
         <ul className="absolute list-none right-0 mr-[75px] pt-[38px] hidden bml:block">
           <li
