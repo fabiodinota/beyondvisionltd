@@ -23,8 +23,7 @@ const InquiryForm = () => {
           <input
             type="text"
             id="firstname"
-            name="firstname"
-            
+            name="First Name"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             
@@ -41,7 +40,7 @@ const InquiryForm = () => {
           <input
             type="text"
             id="lastname"
-            name="lastname"
+            name="Last Name"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             
@@ -60,7 +59,7 @@ const InquiryForm = () => {
           <input
             type="email"
             id="email"
-            name="email"
+            name="Email"
             className="form-control bg-transparent border-b-4 w-full  px-3 pb-3 text-[20px] border-yellow text-text placeholder:text-placeholders focus:outline-none"
             autoComplete="off"
             
@@ -81,7 +80,7 @@ const InquiryForm = () => {
             autoComplete="off"
             
             required
-            name="subject"
+            name="Subject"
           />
           <label className="floating-label text-placeholders">Subject</label>
           <ValidationError
@@ -97,7 +96,7 @@ const InquiryForm = () => {
             autoComplete="off"
             
             required
-            name="inquiring"
+            name="What are you inquiring about?"
           />
           <label className="floating-label text-placeholders">
             What are you inquiring about?
