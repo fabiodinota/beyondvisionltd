@@ -81,7 +81,7 @@ const TeamPage = () => {
             &gt;{" "}
             <a
               className="text-text font-semibold underline"
-              href="mailto:coryh@beyondvisionltd.org"
+              href="mailto:ryan@beyondvisionltd.org"
             >
               ryan@beyondvisionltd.org
             </a>
@@ -99,7 +99,7 @@ const TeamPage = () => {
             &gt;{" "}
             <a
               className="text-text font-semibold underline"
-              href="mailto:coryh@beyondvisionltd.org"
+              href="mailto:khyep@beyondvisionltd.org"
             >
               khyep@beyondvisionltd.org
             </a>
@@ -119,7 +119,7 @@ const TeamPage = () => {
             &gt;{" "}
             <a
               className="text-text font-semibold underline"
-              href="mailto:coryh@beyondvisionltd.org"
+              href="mailto:laurence@beyondvisionltd.org"
             >
               laurence@beyondvisionltd.org
             </a>
@@ -138,7 +138,7 @@ const TeamPage = () => {
             &gt;{" "}
             <a
               className="text-text font-semibold underline"
-              href="mailto:coryh@beyondvisionltd.org"
+              href="mailto:nathan@beyondvisionltd.org"
             >
               nathan@beyondvisionltd.org
             </a>
@@ -163,7 +163,7 @@ const TeamPage = () => {
             &gt;{" "}
             <a
               className="text-text font-semibold underline"
-              href="mailto:coryh@beyondvisionltd.org"
+              href="mailto:ben@beyondvisionltd.org"
             >
               ben@beyondvisionltd.org
             </a>
@@ -183,7 +183,7 @@ const TeamPage = () => {
             &gt;{" "}
             <a
               className="text-text font-semibold underline"
-              href="mailto:coryh@beyondvisionltd.org"
+              href="mailto:cobystones@beyondvisionltd.org"
             >
               cobystones@beyondvisionltd.org
             </a>
@@ -205,7 +205,7 @@ const TeamPage = () => {
             &gt;{" "}
             <a
               className="text-text font-semibold underline"
-              href="mailto:coryh@beyondvisionltd.org"
+              href="mailto:kieran@beyondvisionltd.org"
             >
               kieran@beyondvisionltd.org
             </a>

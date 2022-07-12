@@ -176,6 +176,7 @@ const InquiryForm = () => {
   ];
   const audiences = {
     ages: [
+      { value: "any", text: "Any" },
       { value: "10", text: "0-10" },
       { value: "20", text: "11-20" },
       { value: "30", text: "21-30" },
@@ -188,6 +189,7 @@ const InquiryForm = () => {
       { value: "100", text: "91-100" },
     ],
     location: [
+      { value: "any", text: "Any" },
       { value: "NA", text: "North America" },
       { value: "SA", text: "South America" },
       { value: "EU", text: "Europe" },
@@ -197,6 +199,7 @@ const InquiryForm = () => {
       { value: "AN", text: "Antarctica" },
     ],
     gender: [
+      { value: "any", text: "Any" },
       { value: "male", text: "Male" },
       { value: "female", text: "Female" },
       { value: "none", text: "Rather Not Specify" },

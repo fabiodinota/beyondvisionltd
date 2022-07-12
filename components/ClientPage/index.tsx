@@ -32,7 +32,7 @@ const ClientPage = () => {
               data-aos-delay="100"
               className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
-              <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
+              <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
                 <Image layout="responsive" src={Iszy} alt="image" />
               </div>
               <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
@@ -155,7 +155,7 @@ const ClientPage = () => {
                 Michael Sampsill
               </h3>
               <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
-                @Micheal701s
+                @Michael701s
               </p>
               <button className="text-black rounded-full  bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
                 <Link href="our-talents/michael">View</Link>

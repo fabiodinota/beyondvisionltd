@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Main from "../../../public/images/ClientsImages/Jordan.png";
+import Main from "../../../public/images/ClientsImages/OG.png";
 import TikTok from "../../../public/images/tiktok.png";
 import Instagram from "../../../public/images/Instagram.png";
 
