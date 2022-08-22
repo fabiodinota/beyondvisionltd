@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Head from "next/head";
 import NavBar from "./Navbar";
+import { motion } from "framer-motion";
 
 interface Props {
   children?: React.ReactNode;
@@ -9,6 +10,11 @@ interface Props {
 }
 
 const Layout: React.FC<Props> = ({ children, title }) => {
+  const variants = {
+    initial: { opacity: 0, y: -20, scale: 0.995, blur: 0 },
+    animate: { opacity: 1, y: 0, scale: 1, blur: 100 },
+    exit: { opacity: 0, y: 20, scale: 1.005, blur: 0 },
+  };
   return (
     <div className="bg-[#161616] -z-50">
       <Head>
@@ -53,7 +59,15 @@ const Layout: React.FC<Props> = ({ children, title }) => {
       <header>
         <NavBar />
       </header>
-      <main>{children}</main>
+      <motion.div
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        variants={variants}
+        transition={{ duration: 0.3 }}
+      >
+        <main>{children}</main>
+      </motion.div>
       <Footer />
     </div>
   );

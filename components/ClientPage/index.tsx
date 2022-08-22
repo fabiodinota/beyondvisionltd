@@ -10,6 +10,12 @@ import Subas from "../../public/images/ClientsImages/Subas.png";
 import Link from "next/link";
 import Mo from "../../public/images/ClientsImages/Mo.png";
 import Greats from "../../public/images/ClientsImages/Greats.png";
+import Danielle from "../../public/images/ClientsImages/DanielleRounded.png";
+import Barii from "../../public/images/ClientsImages/BariiRounded.png";
+import Logan from "../../public/images/ClientsImages/LoganRounded.png";
+import Raielle from "../../public/images/ClientsImages/RaielleRounded.png";
+import Rain from "../../public/images/ClientsImages/RainRounded.png";
+import WS3 from "../../public/images/ClientsImages/WS3Rounded.png";
 
 const ClientPage = () => {
   return (
@@ -209,9 +215,121 @@ const ClientPage = () => {
                 <Link href="our-talents/greats">View</Link>
               </button>
             </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="550"
+              className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
+            >
+              <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
+                <Image layout="responsive" src={Danielle} alt="image" />
+              </div>
+              <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
+                Danielle
+              </h3>
+              <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
+                @_danielleburke_
+              </p>
+              <button className="text-black rounded-full bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+                <Link href="our-talents/danielle">View</Link>
+              </button>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+              className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
+            >
+              <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
+                <Image layout="responsive" src={Barii} alt="image" />
+              </div>
+              <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
+                Barii
+              </h3>
+              <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
+                @famousbarii
+              </p>
+              <button className="text-black rounded-full bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+                <Link href="our-talents/famousbarii">View</Link>
+              </button>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="650"
+              className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
+            >
+              <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
+                <Image layout="responsive" src={Logan} alt="image" />
+              </div>
+              <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
+                Logan
+              </h3>
+              <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
+                @loganskihealth
+              </p>
+              <button className="text-black rounded-full bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+                <Link href="our-talents/logan">View</Link>
+              </button>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="700"
+              className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
+            >
+              <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
+                <Image layout="responsive" src={Raielle} alt="image" />
+              </div>
+              <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
+                Raielle
+              </h3>
+              <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
+                @itsraielle
+              </p>
+              <button className="text-black rounded-full bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+                <Link href="our-talents/raielle">View</Link>
+              </button>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="750"
+              className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
+            >
+              <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
+                <Image layout="responsive" src={Rain} alt="image" />
+              </div>
+              <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
+                Rain Clements
+              </h3>
+              <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
+                @rainclements
+              </p>
+              <button className="text-black rounded-full bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+                <Link href="our-talents/rain">View</Link>
+              </button>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="800"
+              className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
+            >
+              <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
+                <Image layout="responsive" src={WS3} alt="image" />
+              </div>
+              <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
+                Josh
+              </h3>
+              <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
+                @imnotjs3
+              </p>
+              <button className="text-black rounded-full bg-yellow h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+                <Link href="our-talents/ws3">View</Link>
+              </button>
+            </div>
           </div>
-          {/*           </div>
-           */}{" "}
         </section>
       </div>
     </>
