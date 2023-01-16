@@ -45,7 +45,7 @@ const TextComponent = () => {
             <br />
             Beyond Vision was founded in early March of 2022 by the current CEO,
             Cory Hodkinson, since its launch in March of 2022, Beyond Vision has
-            accumulated an influencer clientele roster of over 400 million in
+            accumulated an influencer clientele roster of over 500 million in
             terms of a combined following while rapidly expanding each passing
             day.
           </p>
@@ -157,9 +157,11 @@ const TextComponent = () => {
       </div>
 
       <div className="mt-[100px] mb-20">
-        <button className="text-black rounded-full  bg-yellow h-[70px] w-[200px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-          <Link href="/meet-the-team">Meet Our Team</Link>
-        </button>
+      <Link href="meet-the-team">
+                  <button className="text-black rounded-full  bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[170px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+                  Meet our team
+              </button>
+                </Link>
       </div>
     </>
   );

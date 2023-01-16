@@ -38,7 +38,7 @@ const KylePage = () => {
               data-aos-delay="300"
               className=" text-text font-semibold"
             >
-             Kyle was born in the Philippines, he then moved to the United States and has lived all over the country since. Kyle was a problem child who often got suspended and expelled from his schools but turned his life around at 16 years old through social media content creation. He found himself creating skits for his friends on social media which slowly became a hobby. He then began pursuing his hobby as a content creator and mixed it with his passion for anime. Kyle&ldquo;s content consists of gaming skits, anime skits, comedy, and Gym videos.
+             Kyle was born in the Philippines, he then moved to the United States and has lived all over the country since. Kyle was a problem child who often got suspended and expelled from his schools but turned his life around at 16 years old through social media content creation. He found himself creating skits for his friends on social media which slowly became a hobby. He then began pursuing his hobby as a content creator and mixed it with his passion for anime. Kyle&apos;s content consists of gaming skits, anime skits, comedy, and Gym videos.
             </p>
             <br />
             <br />

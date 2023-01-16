@@ -23,7 +23,7 @@ import Craig from "../../public/images/ClientsImages/craig.png";
 import Kyle from "../../public/images/ClientsImages/kyle.png";
 import Megan from "../../public/images/ClientsImages/megan.png";
 import Zuba from "../../public/images/ClientsImages/zuba.png";
-
+import Yonn from "../../public/images/ClientsImages/yonn.png";
 
 
 const ClientPage = () => {
@@ -231,29 +231,6 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="650"
-              className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
-            >
-              <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
-                <Image layout="responsive" src={Logan} alt="image" />
-              </div>
-              <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
-                Logan
-              </h3>
-              <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
-                @loganskihealth
-              </p>
-              <button className="text-black rounded-full bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                <Link href="our-talents/logan">
-                  <button className="text-black rounded-full bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                  View
-              </button>
-                </Link>
-              </button>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
               data-aos-delay="700"
               className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
@@ -323,20 +300,20 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="800"
+              data-aos-delay="850"
               className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
-                <Image layout="responsive" src={Creator} alt="image" />
+                <Image layout="responsive" src={Yonn} className="rounded-full" alt="image" />
               </div>
               <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
-                Creator
+                Yonn
               </h3>
               <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
-                @creator
+                @theyonndon
               </p>
               <button className="text-black rounded-full bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                <Link href="our-talents/creator">
+                <Link href="our-talents/yonn">
                   <button className="text-black rounded-full bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
                   View
               </button>
@@ -369,7 +346,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="350"
+              data-aos-delay="400"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -392,7 +369,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="350"
+              data-aos-delay="450"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -415,7 +392,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="350"
+              data-aos-delay="400"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -438,7 +415,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="350"
+              data-aos-delay="500"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -461,7 +438,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="350"
+              data-aos-delay="550"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">

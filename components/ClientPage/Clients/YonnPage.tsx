@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import Main from "../../../public/images/ClientsImages/Creator.png";
+import Main from "../../../public/images/ClientsImages/yonn.png";
 import TikTok from "../../../public/images/tiktok.png";
 import Instagram from "../../../public/images/Instagram.png";
 
-const CreatorPage = () => {
+const YonnPage = () => {
   return (
     <div className="flex justify-center items-center w-full overflow-hidden">
       <section className="flex justify-center items-center max-w-[1220px] w-[90%] xl:w-full  flex-col mt-[100px] xl:mt-[150px]">
@@ -29,7 +29,7 @@ const CreatorPage = () => {
               data-aos-delay="150"
               className="text-[36px] md:text-[42px] pb-5 text-yellow font-semibold"
             >
-              Name Creator
+              The Yonn Don
             </h1>
             <p
               data-aos="fade-up"
@@ -37,7 +37,7 @@ const CreatorPage = () => {
               data-aos-delay="300"
               className=" text-text font-semibold"
             >
-                Creator Description
+                Yonn is located in the United States & has lived between the East Coast and Midwest throughout their life. They started using Tiktok as an avenue to explore nerd culture. They are known for their &quot;Anime Hair Tutorials&quot;, cosplays, mini skits, commentary on nerd culture, and viral video transitions.
             </p>
             <br />
 
@@ -48,14 +48,14 @@ const CreatorPage = () => {
               className="flex flex-row justify-start items-center pt-2"
             >
               <div className="pr-2 pt-2">
-                <a href="https://www.instagram.com/creator/">
+                <a href="https://www.instagram.com/theyonndon/?hl=en">
                   <Image src={Instagram} alt="social" />
                 </a>
               </div>
               <div className="px-2 w-[48px] origin-top p-0 h-auto">
                 <a
                   className="w-full h-full"
-                  href="https://www.tiktok.com/@creator"
+                  href="https://www.tiktok.com/@theyonndon?lang=en"
                 >
                   <Image layout="responsive" src={TikTok} alt="social" />
                 </a>
@@ -68,4 +68,4 @@ const CreatorPage = () => {
   );
 };
 
-export default CreatorPage;
+export default YonnPage;

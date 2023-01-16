@@ -22,14 +22,9 @@ const Footer = () => {
               <Image src={LinkedIn} alt="social" />
             </a>
           </div>
-          <div className="px-2">
-            <a href="https://twitter.com/BeyondVisionLTD">
-              <Image src={Twitter} alt="social" />
-            </a>
-          </div>
         </div>
         <p className="text-yellow opacity-50 pt-1  font-regular text-[16px]">
-          © 2022 by Beyond Vision
+          © 2023 by Beyond Vision
         </p>
       </div>
     </>

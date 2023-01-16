@@ -95,9 +95,12 @@ const HomePage = () => {
       <div className="flex justify-center items-center w-full flex-col pb-[30px]">
         <InfluencerCard />
       </div>
-      <button className="text-black rounded-full bg-yellow h-[70px] w-[150px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-        <Link href="/our-talents">View More</Link>
-      </button>
+      <Link href="our-talents">
+                  <button className="text-black rounded-full  bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[170px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+                  View More
+              </button>
+                </Link>
+              
       <section className="flex justify-center items-center max-w-[1220px] w-[90%] xl:w-full  flex-col mt-[100px] xl:mt-[150px]">
         <TextComponent />
       </section>

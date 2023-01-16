@@ -67,9 +67,11 @@ const TextComponent = () => {
         </div>
       </div>
       <div className="mt-[50px]">
-        <button className="text-black rounded-full  bg-yellow h-[70px] w-[200px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-          <Link href="/about-us">View More About Us</Link>
-        </button>
+      <Link href="about-us">
+                  <button className="text-black rounded-full  bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[220px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+                  View More About Us
+              </button>
+                </Link>
       </div>
     </>
   );

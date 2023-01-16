@@ -3,21 +3,21 @@ import React from "react";
 import Image1 from "../../public/images/brands/cameo.png";
 import Image2 from "../../public/images/brands/gameshow.png";
 import Image3 from "../../public/images/brands/halara.png"; //
-import Image4 from "../../public/images/brands/holoash.png"; // 
-import Image5 from "../../public/images/brands/infinix.png"; // 
-import Image6 from "../../public/images/brands/lifeboard.png"; //
-import Image7 from "../../public/images/brands/logitech.png";
-import Image8 from "../../public/images/brands/nordvpn.png";
-import Image9 from "../../public/images/brands/obs.png"; //
+import Image16 from "../../public/images/brands/holoash.png"; // 
+import Image15 from "../../public/images/brands/infinix.png"; // 
+import Image11 from "../../public/images/brands/lifeboard.png"; //
+import Image8 from "../../public/images/brands/logitech.png";
+import Image7 from "../../public/images/brands/nordvpn.png";
+import Image6 from "../../public/images/brands/obs.png"; //
 import Image10 from "../../public/images/brands/pretty.png";
-import Image11 from "../../public/images/brands/prime.png";
+import Image5 from "../../public/images/brands/prime.png";
 import Image12 from "../../public/images/brands/romwe.png";
 import Image13 from "../../public/images/brands/rumble.png"; //
 import Image14 from "../../public/images/brands/shein.png"; //
-import Image15 from "../../public/images/brands/snapchat.png"; //
-import Image16 from "../../public/images/brands/temu.png"; //
+import Image4 from "../../public/images/brands/snapchat.png"; //
+import Image18 from "../../public/images/brands/temu.png"; //
 import Image17 from "../../public/images/brands/tide.png";
-import Image18 from "../../public/images/brands/tiktok.png";
+import Image9 from "../../public/images/brands/tiktok.png";
 import Image19 from "../../public/images/brands/wondershare.png"; // 
 
 const Brands = () => {

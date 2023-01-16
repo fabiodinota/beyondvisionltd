@@ -38,7 +38,7 @@ const AustenPage = () => {
               data-aos-delay="300"
               className=" text-text font-semibold"
             >
-Austen is a content creator and streamer from Wisconsin in the United States. He has been affiliated with his passion for content creation and gaming since 2019. Austen started working on content involving the game &dbquo;Fortnite&dbquo; in 2019. Later on, in 2021, he transitioned to more variety of games. He began posting on tiktok in 2022 and since then has obtained over 200,000 followers and tens of millions of views, Austen is also gaining traction on his Twitch profile where he attempts to stream every day!
+Austen is a content creator and streamer from Wisconsin in the United States. He has been affiliated with his passion for content creation and gaming since 2019. Austen started working on content involving the game &quot;Fortnite&quot; in 2019. Later on, in 2021, he transitioned to more variety of games. He began posting on tiktok in 2022 and since then has obtained over 200,000 followers and tens of millions of views, Austen is also gaining traction on his Twitch profile where he attempts to stream every day!
             </p>
             <br />
             <br />
