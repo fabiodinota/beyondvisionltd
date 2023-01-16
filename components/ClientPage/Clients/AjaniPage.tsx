@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import Main from "../../../public/images/ClientsImages/Mo.png";
+import Main from "../../../public/images/ClientsImages/ajani.png";
 import TikTok from "../../../public/images/tiktok.png";
 import Instagram from "../../../public/images/Instagram.png";
 
-const IszyPage = () => {
+const AjaniPage = () => {
   return (
     <div className="flex justify-center items-center w-full overflow-hidden">
       <section className="flex justify-center items-center max-w-[1220px] w-[90%] xl:w-full  flex-col mt-[100px] xl:mt-[150px]">
@@ -19,6 +19,7 @@ const IszyPage = () => {
               src={Main}
               layout="responsive"
               alt="home image with productivity setup"
+              className="rounded-full"
             />
           </div>
           <div className="pl-0 xl:pl-10 max-w-[900px] w-[90%] pb-10 xl:pb-0 xl:w-[610px]">
@@ -28,7 +29,7 @@ const IszyPage = () => {
               data-aos-delay="150"
               className="text-[36px] md:text-[42px] pb-5 text-yellow font-semibold"
             >
-              Mo
+              Ajani
             </h1>
             <p
               data-aos="fade-up"
@@ -36,36 +37,10 @@ const IszyPage = () => {
               data-aos-delay="300"
               className=" text-text font-semibold"
             >
-              Mo commenced posting on TikTok back in November of 2021. Mo has
-              built himself an impressive amount of followers on the platform,
-              where he posts content surrounding pop culture trends, sports,
-              celebrities, tv shows, movies, politics, and more. Mo is known and
-              loved for the way he can talk about these topics while integrating
-              humour into the content and making his audience laugh!
+Ajani, known as ceorichie is a content creator from the United States, he focuses on producing entertainment and fashion-based content through his social media platforms. Ajani began his content creation journey in early 2020 and it has since become a big passion of his.
             </p>
             <br />
             <br />
-            <h3
-              data-aos="fade-up"
-              data-aos-duration="700"
-              data-aos-delay="450"
-              className="text-[20px] pb-5 text-yellow font-semibold"
-            >
-              Review
-            </h3>
-            <p
-              data-aos="fade-up"
-              data-aos-duration="700"
-              data-aos-delay="600"
-              className=" text-text font-semibold"
-            >
-              &ldquo;My time here at beyond vision has helped me grow my career
-              in ways I never thought I could grow as a creator. They have
-              helped me take my career to the next step and I appreciate
-              everything they have done for me. They continue to provide me with
-              the resources I need to succeed, as well as set me up with brands
-              that I enjoy working with! &rdquo;
-            </p>
             <div
               data-aos="fade-up"
               data-aos-duration="700"
@@ -73,14 +48,14 @@ const IszyPage = () => {
               className="flex flex-row justify-start items-center pt-2"
             >
               <div className="pr-2 pt-2">
-                <a href="https://instagram.com/mojeed23?igshid=YmMyMTA2M2Y=">
+                <a href="https://www.instagram.com/ceo_richie/">
                   <Image src={Instagram} alt="social" />
                 </a>
               </div>
               <div className="px-2 w-[48px] origin-top p-0 h-auto">
                 <a
                   className="w-full h-full"
-                  href="https://vm.tiktok.com/ZMN66Dyyy/"
+                  href="https://www.tiktok.com/@ceo_richie"
                 >
                   <Image layout="responsive" src={TikTok} alt="social" />
                 </a>
@@ -93,4 +68,4 @@ const IszyPage = () => {
   );
 };
 
-export default IszyPage;
+export default AjaniPage;

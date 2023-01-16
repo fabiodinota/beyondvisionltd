@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import Main from "../../../public/images/ClientsImages/OG.png";
+import Main from "../../../public/images/ClientsImages/megan.png";
 import TikTok from "../../../public/images/tiktok.png";
 import Instagram from "../../../public/images/Instagram.png";
 
-const IszyPage = () => {
+const MeganPage = () => {
   return (
     <div className="flex justify-center items-center w-full overflow-hidden">
       <section className="flex justify-center items-center max-w-[1220px] w-[90%] xl:w-full  flex-col mt-[100px] xl:mt-[150px]">
@@ -19,6 +19,8 @@ const IszyPage = () => {
               src={Main}
               layout="responsive"
               alt="home image with productivity setup"
+              className="rounded-full"
+
             />
           </div>
           <div className="pl-0 xl:pl-10 max-w-[900px] w-[90%] pb-10 xl:pb-0 xl:w-[610px]">
@@ -28,7 +30,7 @@ const IszyPage = () => {
               data-aos-delay="150"
               className="text-[36px] md:text-[42px] pb-5 text-yellow font-semibold"
             >
-              OG
+              Megan
             </h1>
             <p
               data-aos="fade-up"
@@ -36,36 +38,10 @@ const IszyPage = () => {
               data-aos-delay="300"
               className=" text-text font-semibold"
             >
-              Joseph lives in Canada and has done all his life. He started
-              Tiktok for fun in 2019 to make videos with his friends, and since
-              then he began to fall in love with creating content. Joseph got
-              his first viral video in 2019, and from then on his passion for
-              creating content has brewed immensely. Joseph&apos;s hobbies
-              include playing basketball, video games, taking pictures
-              (modeling), watching movies/tv shows, and of course, creating
-              content for his audience to enjoy.
+Megan began her content creation endeavors in 2020. She was born in Blackpool in the United Kingdom and has lived there ever since. Her content consists of 5-10 second videos showing glimpses into her day-to-day lifestyle. Megan began posting content just as a thing to pass by time, and since then it has become one of her treasured hobbies which she loves to do.
             </p>
             <br />
             <br />
-            <h3
-              data-aos="fade-up"
-              data-aos-duration="700"
-              data-aos-delay="450"
-              className="text-[20px] pb-5 text-yellow font-semibold"
-            >
-              Review
-            </h3>
-            <p
-              data-aos="fade-up"
-              data-aos-duration="700"
-              data-aos-delay="600"
-              className=" text-text font-semibold"
-            >
-              &ldquo;Being a part of beyond vision management has truly been a
-              great experience. They have always shown me so much support and
-              offered great advice on how to help myself earn the best possible
-              opportunities with different brands and so much more! &rdquo;
-            </p>
             <div
               data-aos="fade-up"
               data-aos-duration="700"
@@ -73,14 +49,14 @@ const IszyPage = () => {
               className="flex flex-row justify-start items-center pt-2"
             >
               <div className="pr-2 pt-2">
-                <a href="https://instagram.com/ogjjoseph?igshid=YmMyMTA2M2Y=">
+                <a href="https://www.instagram.com/meganlhopwood/">
                   <Image src={Instagram} alt="social" />
                 </a>
               </div>
               <div className="px-2 w-[48px] origin-top p-0 h-auto">
                 <a
                   className="w-full h-full"
-                  href="https://vm.tiktok.com/ZMN6jdqrw/"
+                  href="https://www.tiktok.com/@megshopwood?lang=en"
                 >
                   <Image layout="responsive" src={TikTok} alt="social" />
                 </a>
@@ -93,4 +69,4 @@ const IszyPage = () => {
   );
 };
 
-export default IszyPage;
+export default MeganPage;

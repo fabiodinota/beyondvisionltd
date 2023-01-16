@@ -12,6 +12,125 @@
 }
 
 @layer components {
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .brand-wheel {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+
+    --animationspeed: 45s;
+    --animationdelay: calc(var(--animationspeed) / 2);
+    
+  }
+
+  /* .brand-wheel::before {
+    position: absolute;
+    background-image: linear-gradient(
+      to right,
+      rgba(1, 63, 42, 1) 0%,
+      rgba(1, 63, 42, 0) 100%
+    );
+    content: "";
+    height: 100%;
+    width: 5%;
+    z-index: 2;
+    pointer-events: none;
+  }
+  .brand-wheel::after {
+    position: absolute;
+    background-image: linear-gradient(
+      to left,
+      rgba(1, 63, 42, 1) 0%,
+      rgba(1, 63, 42, 0) 100%
+    );
+    content: "";
+    height: 100%;
+    width: 5%;
+    z-index: 2;
+    pointer-events: none;
+    right: 0;
+  } */
+
+  .brand-slide {
+    flex-shrink: 0;
+    position: absolute;
+    animation-name: slidelogo;
+    animation-duration: var(--animationspeed);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .brand-slide.delay { 
+    transform: translateX(100%);
+    animation-name: slidelogo2;
+  }
+
+
+  .logo-div {
+    display: inline-flex;
+    align-self: center;
+    object-fit: contain;
+    animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+    padding: 0 20px 0 20px;
+  }
+
+  @keyframes slidelogo {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes slidelogo2 {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  .container::before {
+    position: absolute;
+    background-image: linear-gradient(
+      to right,
+      rgba(22, 22, 22, 1) 0%,
+      rgba(22, 22, 22, 0) 100%
+    );
+    content: "";
+    height: 200px;
+    width: 5%;
+    z-index: 2;
+    pointer-events: none;
+  }
+  .container::after {
+    position: absolute;
+    transform: translateY(-200px);
+    background-image: linear-gradient(
+      to left,
+      rgba(22, 22, 22, 1) 0%,
+      rgba(22, 22, 22, 0) 100%
+    );
+    content: "";
+    height: 200px;
+    width: 5%;
+    z-index: 10;
+    pointer-events: none;
+    right: 0;
+  }
   .nav-item {
     font-family: Raleway, sans-serif;
     fontweight: 500;

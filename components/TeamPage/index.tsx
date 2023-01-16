@@ -27,7 +27,7 @@ const TeamPage = () => {
             the same goal in mind, to turn our client&#39;s dreams into reality.
             All of our team members have exemplary past achievements and recent
             case studies, highlighting why they deserve to be a part of the
-            family at Beyond Vision. day.
+            family at Beyond Vision.
           </p>
         </div>
         <div className="h-auto  max-w-[560px] w-full justify-self-center self-center xl:justify-self-end xl:self-end">
@@ -50,7 +50,7 @@ const TeamPage = () => {
           <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
             Cory Hodkinson
           </h1>
-          <p className=" text-textaccent text-[16px] pb-5">Founder & Ceo</p>
+          <p className=" text-textaccent text-[16px] pb-5">Founder & CEO</p>
           <p className="text-text w-full pb-5">
             I founded Beyond Vision in March of 2022 and since that moment I
             have loved every second and never looked back. Overall, the feeling
@@ -109,7 +109,7 @@ const TeamPage = () => {
           <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
             Laurence Ivy
           </h1>
-          <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
+          <p className=" text-textaccent text-[16px] pb-5">Talent Manager & Content Strategist</p>
           <p className="text-text w-full pb-5">
             I have had a passion for marketing and management since I was young.
             To be doing my passion, full-time with such incredible people all
@@ -146,10 +146,10 @@ const TeamPage = () => {
         </div>
         <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
           <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
-            Benjamin Chu
+          Kiran Maharaj 
           </h1>
           <p className=" text-textaccent text-[16px] pb-5">
-            Talent Manager & Content Strategist
+            Brand Manager
           </p>
           <p className="text-text w-full pb-5">
             &ldquo;Working at Beyond Vision is quite honestly a bit of a dream
@@ -163,9 +163,9 @@ const TeamPage = () => {
             &gt;{" "}
             <a
               className="text-text font-semibold underline"
-              href="mailto:ben@beyondvisionltd.org"
+              href="mailto:kiran@beyondvisionltd.org"
             >
-              ben@beyondvisionltd.org
+              kiran@beyondvisionltd.org
             </a>
           </p>
         </div>
@@ -193,7 +193,7 @@ const TeamPage = () => {
           <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
             Kieran Page
           </h1>
-          <p className=" text-textaccent text-[16px] pb-5">President</p>
+          <p className=" text-textaccent text-[16px] pb-5">COO</p>
           <p className="text-text w-full pb-5">
             &ldquo;Working here at Beyond Vision has been tremendous! I can
             honestly say, I have the best job in the world. I get to wake up
