@@ -71,14 +71,14 @@ const IszyPage = () => {
               className="flex flex-row justify-start items-center pt-2"
             >
               <div className="pr-2 pt-2">
-                <a href="https://instagram.com/thejordanroe21?igshid=YmMyMTA2M2Y=">
+                <a href="https://www.instagram.com/thejordanroe_21/">
                   <Image src={Instagram} alt="social" />
                 </a>
               </div>
               <div className="px-2 w-[48px] origin-top p-0 h-auto">
                 <a
                   className="w-full h-full"
-                  href="https://vm.tiktok.com/ZMN6j2TfT/"
+                  href="https://www.tiktok.com/@thejordanroe21?lang=en"
                 >
                   <Image layout="responsive" src={TikTok} alt="social" />
                 </a>

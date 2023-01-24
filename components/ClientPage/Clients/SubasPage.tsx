@@ -84,7 +84,7 @@ const IszyPage = () => {
               <div className="px-2 w-[48px] origin-top p-0 h-auto">
                 <a
                   className="w-full h-full"
-                  href="https://vm.tiktok.com/ZMNjwVjwA/"
+                  href="https://www.tiktok.com/@subasx?lang=en"
                 >
                   <Image layout="responsive" src={TikTok} alt="social" />
                 </a>

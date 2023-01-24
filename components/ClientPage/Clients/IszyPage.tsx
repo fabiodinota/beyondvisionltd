@@ -79,7 +79,7 @@ const IszyPage = () => {
               className="flex flex-row justify-start items-center pt-2"
             >
               <div className="pr-2 pt-2">
-                <a href="https://instagram.com/_iszym0?igshid=YmMyMTA2M2Y=">
+                <a href="https://www.tiktok.com/@neknekmopotato?lang=en">
                   <Image src={Instagram} alt="social" />
                 </a>
               </div>

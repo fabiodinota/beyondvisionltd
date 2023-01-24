@@ -16,6 +16,7 @@ import Shein from "../../public/images/brand-images/Shein.png";
 import SportsCenter from "../../public/images/brand-images/SportsCenter.png";
 import Tide from "../../public/images/brand-images/Tide.png";
 import TextComponent from "./TextComponent";
+import Brands from "./brands";
 
 const HomePage = () => {
   return (
@@ -94,9 +95,12 @@ const HomePage = () => {
       <div className="flex justify-center items-center w-full flex-col pb-[30px]">
         <InfluencerCard />
       </div>
-      <button className="text-black rounded-full bg-yellow h-[70px] w-[150px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-        <Link href="/meet-the-team">View More</Link>
-      </button>
+      <Link href="our-talents">
+                  <button className="text-black rounded-full  bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[170px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+                  View More
+              </button>
+                </Link>
+              
       <section className="flex justify-center items-center max-w-[1220px] w-[90%] xl:w-full  flex-col mt-[100px] xl:mt-[150px]">
         <TextComponent />
       </section>
@@ -110,38 +114,7 @@ const HomePage = () => {
           Brands we&apos;ve worked with
         </h1>
       </section>
-      <div className="max-w-[1220px] w-[90%] flex justify-center items-center flex-wrap pb-[100px] xl:pb-[50px]">
-        <div className=" w-[100px] h-auto aspect-auto mx-10 my-4 lg:my-0">
-          <Image src={Tide} layout="responsive" alt="tide logo" />
-        </div>
-        <div className="w-[100px] h-auto aspect-auto mx-10 my-4 lg:my-0">
-          <Image src={Patreon} layout="responsive" alt="patreon logo" />
-        </div>
-        <div className="w-[100px] h-auto aspect-auto mx-10 my-4 lg:my-0">
-          <Image src={SportsCenter} layout="responsive" alt="brand image" />
-        </div>
-        <div className="w-[100px] h-auto aspect-auto mx-10 my-4 lg:my-0">
-          <Image src={Kalamtime} layout="responsive" alt="brand image" />
-        </div>
-        <div className="w-[150px] h-auto aspect-auto mx-10 my-4 lg:my-0">
-          <Image src={Romwe} layout="responsive" alt="brand image" />
-        </div>
-        <div className="w-[150px] h-auto aspect-auto mx-10 my-4 lg:my-0">
-          <Image src={Infinix} layout="responsive" alt="brand image" />
-        </div>
-        <div className="w-[150px] h-auto aspect-auto mx-10 my-4 lg:my-0">
-          <Image src={Cameo} layout="responsive" alt="brand image" />
-        </div>
-        <div className="w-[150px] h-auto aspect-auto mx-10 my-4 lg:my-0">
-          <Image src={Lovingtan} layout="responsive" alt="brand image" />
-        </div>
-        <div className="w-[150px] h-auto aspect-auto mx-10 my-4 lg:my-0">
-          <Image src={Shein} layout="responsive" alt="brand image" />
-        </div>
-        <div className="w-[150px] h-auto aspect-auto mx-10 my-4 lg:my-0">
-          <Image src={Pietra} layout="responsive" alt="brand image" />
-        </div>
-      </div>
+      <Brands />
     </div>
   );
 };
