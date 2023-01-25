@@ -65,29 +65,6 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="150"
-              className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
-            >
-              <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
-                <Image layout="responsive" src={Subas} alt="image" />
-              </div>
-              <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
-                Subas Shrestha
-              </h3>
-              <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
-                @subasx
-              </p>
-              
-                <Link href="our-talents/subas">
-                  <button className="text-black rounded-full bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                  View
-              </button>
-                </Link>
-              
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
               data-aos-delay="200"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
@@ -111,7 +88,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="350"
+              data-aos-delay="300"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -134,7 +111,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="400"
+              data-aos-delay="100"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -157,7 +134,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="500"
+              data-aos-delay="200"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  pb-20 flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -185,7 +162,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="550"
+              data-aos-delay="300"
               className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
@@ -208,7 +185,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="600"
+              data-aos-delay="100"
               className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
@@ -231,7 +208,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="700"
+              data-aos-delay="200"
               className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
@@ -254,7 +231,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="750"
+              data-aos-delay="300"
               className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
@@ -277,7 +254,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="800"
+              data-aos-delay="100"
               className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
@@ -300,7 +277,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="850"
+              data-aos-delay="200"
               className="rounded-3xl w-full  h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] h-auto xs:w-[316px] pt-10 ">
@@ -323,7 +300,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="350"
+              data-aos-delay="300"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -346,7 +323,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="400"
+              data-aos-delay="100"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -369,7 +346,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="450"
+              data-aos-delay="200"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -392,7 +369,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="400"
+              data-aos-delay="300"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -415,7 +392,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="500"
+              data-aos-delay="100"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
@@ -438,7 +415,7 @@ const ClientPage = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="550"
+              data-aos-delay="200"
               className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
             >
               <div className="w-[250px] xs:w-[316px] pt-10 h-auto">

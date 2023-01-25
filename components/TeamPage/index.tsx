@@ -171,7 +171,7 @@ const TeamPage = () => {
         </div>
         <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
           <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
-          Barna Boldiszar
+          Barna Boldizsar
           </h1>
           <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
           <p className="text-text w-full pb-5">
