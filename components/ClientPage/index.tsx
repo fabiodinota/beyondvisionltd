@@ -24,6 +24,7 @@ import Kyle from "../../public/images/ClientsImages/kyle.png";
 import Megan from "../../public/images/ClientsImages/megan.png";
 import Zuba from "../../public/images/ClientsImages/zuba.png";
 import Yonn from "../../public/images/ClientsImages/yonn.png";
+import Ralph from "../../public/images/ClientsImages/ralph.png";
 
 
 const ClientPage = () => {
@@ -429,6 +430,29 @@ const ClientPage = () => {
               </p>
               
                 <Link href="our-talents/craig">
+                  <button className="text-black rounded-full bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+                  View
+              </button>
+                </Link>
+              
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              className="rounded-3xl w-full h-full flex justify-center items-center py-10  flex-col hover:bg-background duration-300"
+            >
+              <div className="w-[250px] xs:w-[316px] pt-10 h-auto">
+                <Image layout="responsive" src={Ralph} className="rounded-full" alt="image" />
+              </div>
+              <h3 className="text-[20px] xs:text-[30px] pt-3 font-semibold text-yellow">
+                Ralph
+              </h3>
+              <p className="text-textaccent pb-5 text-center  1xl:w-full px-5 text-[13px]">
+                @freeritzyralph
+              </p>
+              
+                <Link href="our-talents/ralph">
                   <button className="text-black rounded-full bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[120px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
                   View
               </button>

@@ -4,7 +4,7 @@ import RalphPage from "../../components/ClientPage/Clients/RalphPage";
 
 const Ralph = () => {
   return (
-    <Layout title="Beyond Vision - @freegr">
+    <Layout title="Beyond Vision - @freeritzyralph">
       <RalphPage />
     </Layout>
   );

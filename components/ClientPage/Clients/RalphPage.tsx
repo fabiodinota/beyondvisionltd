@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Main from "../../../public/images/ClientsImages/kyle.png";
+import Main from "../../../public/images/ClientsImages/ralph.png";
 import TikTok from "../../../public/images/tiktok.png";
 import Instagram from "../../../public/images/Instagram.png";
 
@@ -30,7 +30,7 @@ const RalphPage = () => {
               data-aos-delay="150"
               className="text-[36px] md:text-[42px] pb-5 text-yellow font-semibold"
             >
-              Kyle
+              Ralph
             </h1>
             <p
               data-aos="fade-up"
@@ -38,7 +38,8 @@ const RalphPage = () => {
               data-aos-delay="300"
               className=" text-text font-semibold"
             >
-             Kyle was born in the Philippines, he then moved to the United States and has lived all over the country since. Kyle was a problem child who often got suspended and expelled from his schools but turned his life around at 16 years old through social media content creation. He found himself creating skits for his friends on social media which slowly became a hobby. He then began pursuing his hobby as a content creator and mixed it with his passion for anime. Kyle&apos;s content consists of gaming skits, anime skits, comedy, and Gym videos.
+                Ritzy Ralph is a content creator based out of Florida within the United States. 
+He began his content creation journey at the start of 2022 and has since amassed over 3 million followers combined on his two tiktok, Instagram, and YouTube pages as well as over 100 million likes on his tiktok accounts alone.
             </p>
             <br />
             <br />
@@ -50,14 +51,14 @@ const RalphPage = () => {
               className="flex flex-row justify-start items-center pt-2"
             >
               <div className="pr-2 pt-2">
-                <a href="https://www.instagram.com/kyle_vcy/">
+                <a href="https://instagram.com/ritzy.ralph?igshid=YmMyMTA2M2Y=">
                   <Image src={Instagram} alt="social" />
                 </a>
               </div>
               <div className="px-2 w-[48px] origin-top p-0 h-auto">
                 <a
                   className="w-full h-full"
-                  href="https://www.tiktok.com/@_vcy?lang=en"
+                  href="https://www.tiktok.com/@freeritzyralph"
                 >
                   <Image layout="responsive" src={TikTok} alt="social" />
                 </a>
