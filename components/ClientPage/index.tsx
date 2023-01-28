@@ -16,7 +16,6 @@ import Logan from "../../public/images/ClientsImages/LoganRounded.png";
 import Raielle from "../../public/images/ClientsImages/RaielleRounded.png";
 import Rain from "../../public/images/ClientsImages/RainRounded.png";
 import WS3 from "../../public/images/ClientsImages/WS3Rounded.png";
-import Creator from "../../public/images/ClientsImages/Creator_Rounded.png";
 import Ajani from "../../public/images/ClientsImages/ajani.png";
 import Austen from "../../public/images/ClientsImages/austen.png";
 import Craig from "../../public/images/ClientsImages/craig.png";
