@@ -137,11 +137,11 @@ export const getStaticPaths = async () => {
 
   export const getStaticProps = async ({ params: { slug }}) => {
     const notion = new Client({
-      auth: 'secret_FenlVQcZTKE690OqIye3YKHN5yhv7Elw4zGceWJt16u',
+      auth: process.env.NOTION_SECRET,
     })
   
     const data = await notion.databases.query({
-      database_id: 'e89151afceff40539ff7007f47586929',
+      database_id: process.env.NOTION_INFLUENCER_DB_ID,
     })
 
     const page = data.results.find((item) => {
