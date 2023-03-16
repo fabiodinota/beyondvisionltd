@@ -5,20 +5,10 @@ import Phone from "../../public/images/phone-home.png";
 import ServicesCard from "./ServicesCard";
 import InfluencerCard from "./InfluencerCard";
 import Link from "next/link";
-import Cameo from "../../public/images/brand-images/Cameo.png";
-import Infinix from "../../public/images/brand-images/Infinix.png";
-import Kalamtime from "../../public/images/brand-images/kalamtime.png";
-import Lovingtan from "../../public/images/brand-images/Lovingtan.png";
-import Patreon from "../../public/images/brand-images/Patreon.png";
-import Pietra from "../../public/images/brand-images/Pietra.png";
-import Romwe from "../../public/images/brand-images/Romwe.png";
-import Shein from "../../public/images/brand-images/Shein.png";
-import SportsCenter from "../../public/images/brand-images/SportsCenter.png";
-import Tide from "../../public/images/brand-images/Tide.png";
 import TextComponent from "./TextComponent";
 import Brands from "./brands";
 
-const HomePage = () => {
+const HomePage = ({data}) => {
   return (
     <div className="flex justify-center items-center w-full h-full flex-col overflow-hidden">
       <section className="flex justify-center items-center max-w-[1220px] w-full mx-10 h-screen flex-row">
@@ -114,7 +104,7 @@ const HomePage = () => {
           Brands we&apos;ve worked with
         </h1>
       </section>
-      <Brands />
+      <Brands data={data} />
     </div>
   );
 };

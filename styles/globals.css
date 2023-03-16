@@ -9,6 +9,11 @@
   html {
     font-family: Inter, sans-serif;
   }
+  html, body {
+    overflow: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 @layer components {
@@ -24,12 +29,9 @@
     flex-direction: row;
     align-items: center;
     display: flex;
-    overflow: hidden;
+    overflow: scroll;
     position: relative;
     height: 200px;
-
-    --animationspeed: 45s;
-    --animationdelay: calc(var(--animationspeed) / 2);
     
   }
 
@@ -64,20 +66,10 @@
   .brand-slide {
     flex-shrink: 0;
     position: absolute;
-    animation-name: slidelogo;
-    animation-duration: var(--animationspeed);
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
     min-width: 100%;
     display: flex;
     justify-content: space-around;
   }
-
-  .brand-slide.delay { 
-    transform: translateX(100%);
-    animation-name: slidelogo2;
-  }
-
 
   .logo-div {
     display: inline-flex;
@@ -87,22 +79,6 @@
     padding: 0 20px 0 20px;
   }
 
-  @keyframes slidelogo {
-    from {
-      transform: translateX(0%);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-  @keyframes slidelogo2 {
-    from {
-      transform: translateX(100%);
-    }
-    to {
-      transform: translateX(0%);
-    }
-  }
   .container::before {
     position: absolute;
     background-image: linear-gradient(

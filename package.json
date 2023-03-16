@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
     "@formspree/react": "^2.2.5",
+    "@notionhq/client": "^2.2.3",
     "animated-number-react": "^0.0.1",
     "aos": "^2.3.4",
     "framer-motion": "^6.3.16",
@@ -18,6 +19,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
+    "slugify": "^1.6.5",
     "three": "^0.142.0",
     "vanta": "^0.5.22"
   },
