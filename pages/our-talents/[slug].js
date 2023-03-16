@@ -28,11 +28,11 @@ const Main = ({data}) => {
             alt="home image with productivity setup"
           />
         </div>
-        <div className="pl-0 xl:pl-10 max-w-[900px] w-[90%] pb-10 xl:pb-0 xl:w-[610px]">
+        <div 
+        data-aos="fade-up"
+          data-aos-duration="700"
+        className="pl-0 xl:pl-10 max-w-[900px] w-[90%] pb-10 xl:pb-0 xl:w-[610px]">
           <h1
-            data-aos="fade-up"
-            data-aos-duration="700"
-            data-aos-delay="150"
             className="text-[36px] md:text-[42px] text-yellow font-semibold leading-snug"
           >
             {data.properties.name.title[0].plain_text}
@@ -65,9 +65,6 @@ const Main = ({data}) => {
            {data.properties.review.rich_text[0].plain_text}
           </p> */}
           <div
-            data-aos="fade-up"
-            data-aos-duration="700"
-            data-aos-delay="750"
             className="flex flex-row pr-2 justify-start items-start pt-2"
           >
           {data.properties.insta_link.url && (
