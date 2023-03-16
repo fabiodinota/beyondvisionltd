@@ -16,7 +16,7 @@ const Main = ({ data }) => {
       <div className="flex justify-center items-center w-full h-full overflow-hidden">
         <section className="flex justify-center items-center max-w-[1220px] w-[90%] xl:w-full  flex-col mt-[100px] xl:mt-[150px]">
           <div className="flex justify-center items-center flex-wrap-reverse mt-8 md:mt-14 xl:mt-0 xl:flex-nowrap px-0 xl:mx-5 pb-[100px] flex-row pt-10">
-            {data.properties.image.files[0].file.url ? (
+            {data.properties.image.files[0] ? (
               <div
                 data-aos="fade-up"
                 data-aos-duration="700"
@@ -24,7 +24,7 @@ const Main = ({ data }) => {
                 className="w-[90%] xl:w-[550px] xl:h-auto"
               >
                 <Image
-                  src={data.properties.image.files[0].file.url}
+                  src={data.properties.image.files[0].external.url}
                   width={550}
                   height={550}
                   className="rounded-full object-cover"
