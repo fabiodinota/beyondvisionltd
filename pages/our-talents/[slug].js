@@ -50,20 +50,6 @@ const Main = ({ data }) => {
             <div
               data-aos="fade-up"
               data-aos-duration="700"
-              data-aos-delay="0"
-              className="w-[90%] xl:w-[550px] xl:h-auto"
-            >
-              <Image
-                src={data.properties.image.files[0].file.url}
-                width={550}
-                height={550}
-                className="rounded-full object-cover"
-                alt="home image with productivity setup"
-              />
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-duration="700"
               className="pl-0 xl:pl-10 max-w-[900px] w-[90%] pb-10 xl:pb-0 xl:w-[610px]"
             >
               <h1 className="text-[36px] md:text-[42px] text-yellow font-semibold leading-snug">
