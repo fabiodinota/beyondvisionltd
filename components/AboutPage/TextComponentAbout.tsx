@@ -157,11 +157,11 @@ const TextComponent = () => {
       </div>
 
       <div className="mt-[100px] mb-20">
-      <Link href="meet-the-team">
-                  <button className="text-black rounded-full  bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[170px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                  Meet our team
-              </button>
-                </Link>
+        <Link href="meet-the-team">
+          <button className="text-black rounded-full  bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[170px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+            Meet our team
+          </button>
+        </Link>
       </div>
     </>
   );

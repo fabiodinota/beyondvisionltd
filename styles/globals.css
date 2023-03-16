@@ -9,7 +9,8 @@
   html {
     font-family: Inter, sans-serif;
   }
-  html, body {
+  html,
+  body {
     overflow: auto;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
@@ -32,43 +33,49 @@
     overflow: scroll;
     position: relative;
     height: 200px;
-    
+    --animationspeed: 45s;
+    --animationdelay: calc(var(--animationspeed) / 2);
   }
-
-  /* .brand-wheel::before {
-    position: absolute;
-    background-image: linear-gradient(
-      to right,
-      rgba(1, 63, 42, 1) 0%,
-      rgba(1, 63, 42, 0) 100%
-    );
-    content: "";
-    height: 100%;
-    width: 5%;
-    z-index: 2;
-    pointer-events: none;
-  }
-  .brand-wheel::after {
-    position: absolute;
-    background-image: linear-gradient(
-      to left,
-      rgba(1, 63, 42, 1) 0%,
-      rgba(1, 63, 42, 0) 100%
-    );
-    content: "";
-    height: 100%;
-    width: 5%;
-    z-index: 2;
-    pointer-events: none;
-    right: 0;
-  } */
 
   .brand-slide {
     flex-shrink: 0;
     position: absolute;
+    animation-name: slidelogo;
+    animation-duration: var(--animationspeed);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
     min-width: 100%;
     display: flex;
     justify-content: space-around;
+  }
+
+  .brand-slide.delay { 
+    transform: translateX(100%);
+    animation-name: slidelogo2;
+  }
+
+
+  .logo-div {
+    display: inline-flex;
+    align-self: center;
+    padding: 0 20px 0 20px;
+  }
+
+  @keyframes slidelogo {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes slidelogo2 {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
   }
 
   .logo-div {

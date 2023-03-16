@@ -8,7 +8,7 @@ import Link from "next/link";
 import TextComponent from "./TextComponent";
 import Brands from "./brands";
 
-const HomePage = ({data}) => {
+const HomePage = ({ data }) => {
   return (
     <div className="flex justify-center items-center w-full h-full flex-col overflow-hidden">
       <section className="flex justify-center items-center max-w-[1220px] w-full mx-10 h-screen flex-row">
@@ -86,11 +86,11 @@ const HomePage = ({data}) => {
         <InfluencerCard />
       </div>
       <Link href="our-talents">
-                  <button className="text-black rounded-full  bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[170px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
-                  View More
-              </button>
-                </Link>
-              
+        <button className="text-black rounded-full  bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[170px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
+          View More
+        </button>
+      </Link>
+
       <section className="flex justify-center items-center max-w-[1220px] w-[90%] xl:w-full  flex-col mt-[100px] xl:mt-[150px]">
         <TextComponent />
       </section>

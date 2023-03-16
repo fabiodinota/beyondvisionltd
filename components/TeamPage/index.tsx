@@ -109,7 +109,9 @@ const TeamPage = () => {
           <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
             Laurence Ivy
           </h1>
-          <p className=" text-textaccent text-[16px] pb-5">Talent Manager & Content Strategist</p>
+          <p className=" text-textaccent text-[16px] pb-5">
+            Talent Manager & Content Strategist
+          </p>
           <p className="text-text w-full pb-5">
             I have had a passion for marketing and management since I was young.
             To be doing my passion, full-time with such incredible people all
@@ -127,7 +129,7 @@ const TeamPage = () => {
         </div>
         <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
           <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
-          Jordan Scott
+            Jordan Scott
           </h1>
           <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
           <p className="text-text w-full pb-5">
@@ -146,11 +148,9 @@ const TeamPage = () => {
         </div>
         <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
           <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
-          Kiran Maharaj 
+            Kiran Maharaj
           </h1>
-          <p className=" text-textaccent text-[16px] pb-5">
-            Brand Manager
-          </p>
+          <p className=" text-textaccent text-[16px] pb-5">Brand Manager</p>
           <p className="text-text w-full pb-5">
             &ldquo;Working at Beyond Vision is quite honestly a bit of a dream
             come true for me, I&apos;ve always loved the management aspect of
@@ -171,7 +171,7 @@ const TeamPage = () => {
         </div>
         <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
           <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
-          Barna Boldizsar
+            Barna Boldizsar
           </h1>
           <p className=" text-textaccent text-[16px] pb-5">Talent Manager</p>
           <p className="text-text w-full pb-5">

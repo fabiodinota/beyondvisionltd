@@ -1,4 +1,11 @@
-import { animate, motion, useAnimation, useCycle, useSpring, useTime } from "framer-motion";
+import {
+  animate,
+  motion,
+  useAnimation,
+  useCycle,
+  useSpring,
+  useTime,
+} from "framer-motion";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 /* import Image1 from "../../public/images/brands/cameo.png";
@@ -23,7 +30,7 @@ import Image19 from "../../public/images/brands/wondershare.png"; //
 import Image20 from "../../public/images/brands/gfuel.png"; // */
 
 const Brands = ({ data }) => {
-  const variants = {
+  /* const variants = {
     initial: {
       x: "0%",
     },
@@ -39,23 +46,27 @@ const Brands = ({ data }) => {
     exit: {
       x: "0%",
     },
-  };
-  
+  }; */
 
   return (
     <>
-               {/* <pre className="text-[#fff]">{JSON.stringify(data, null, 2)}</pre>  */}
+      {/* <pre className="text-[#fff]">{JSON.stringify(data, null, 2)}</pre>  */}
 
       <div className="h-[200px] container relative w-full max-w-[1220px] mb-10">
         <div className="brand-wheel overflow-clip scrollbar flex-shrink-0">
-          <motion.div 
+         {/*  <motion.div
             variants={variants}
             initial="initial"
             animate={"animate"}
-           className={`brand-slide flex-shrink-0 flex flex-row w-max gap-20`}>
+            className={`brand-slide flex-shrink-0 flex flex-row w-max gap-20`}
+          > */}
+          <div className="brand-slide flex-shrink-0 flex flex-row w-max gap-20">
             {data.results.map((item) => {
               return (
-                <div key={item.id} className="logo-div flex flex-col items-center">
+                <div
+                  key={item.id}
+                  className="logo-div flex flex-col items-center"
+                >
                   <Image
                     loading="eager"
                     quality={100}
@@ -66,21 +77,45 @@ const Brands = ({ data }) => {
                     height={169}
                     objectFit="contain"
                   />
-                 {item.properties.name.title[0] && (
-                    <p className="text-[#fff] font-semibold">{item.properties.name.title[0].plain_text}</p>       
-                 )}
-                  
+                  {item.properties.name.title[0] && (
+                    <p className="text-[#fff] font-semibold">
+                      {item.properties.name.title[0].plain_text}
+                    </p>
+                  )}
                 </div>
               );
-            }
-            )}
-          </motion.div>
+            })}
+          </div>
+          <div className="brand-slide delay flex-shrink-0 flex flex-row w-max gap-20">
+            {data.results.map((item) => {
+              return (
+                <div
+                  key={item.id}
+                  className="logo-div flex flex-col items-center"
+                >
+                  <Image
+                    loading="eager"
+                    quality={100}
+                    className="logo-div"
+                    src={item.properties.logo.files[0].external.url}
+                    alt="brand"
+                    width={169}
+                    height={169}
+                    objectFit="contain"
+                  />
+                  {item.properties.name.title[0] && (
+                    <p className="text-[#fff] font-semibold">
+                      {item.properties.name.title[0].plain_text}
+                    </p>
+                  )}
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </>
   );
 };
-
-
 
 export default Brands;

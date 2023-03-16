@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: { images: { layoutRaw: true } },
   images: {
-    domains: ['i.imgur.com', 's3.us-west-2.amazonaws.com'],
+    domains: ["i.imgur.com", "s3.us-west-2.amazonaws.com"],
   },
 };
 
