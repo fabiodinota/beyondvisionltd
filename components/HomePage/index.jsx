@@ -12,7 +12,7 @@ const HomePage = ({ data }) => {
   return (
     <div className="flex justify-center items-center w-full h-full flex-col overflow-hidden">
       <section className="flex justify-center items-center max-w-[1220px] w-full mx-10 h-screen flex-row">
-        <div className=" mt-20 md:mt-0 px-10 md:pl-20 relative z-50">
+        <div className=" px-10 md:pl-20 relative z-50">
           <h1
             data-aos="fade-up"
             data-aos-duration="800"
