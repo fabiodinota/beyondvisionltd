@@ -136,8 +136,13 @@ export const getStaticPaths = async () => {
 
   const data = await notion.databases.query({
     database_id: process.env.NOTION_INFLUENCER_DB_ID,
-    cache: 'no_cache=' + Math.floor(Math.random() * 100000),
-  });
+  },
+  {
+    Headers: {
+      'Cache-Control': 'no-cache',
+    },
+  }
+  );
 
   const paths = [];
 
@@ -164,8 +169,13 @@ export const getStaticProps = async ({ params: { slug } }) => {
 
   const data = await notion.databases.query({
     database_id: process.env.NOTION_INFLUENCER_DB_ID,
-    cache: 'no_cache=' + Math.floor(Math.random() * 100000),
-  });
+  },
+  {
+    Headers: {
+      'Cache-Control': 'no-cache',
+    },
+  }
+  );
 
   const page = data.results.find((item) => {
     if (

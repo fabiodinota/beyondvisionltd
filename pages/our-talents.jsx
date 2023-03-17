@@ -79,8 +79,13 @@ export const getStaticProps = async () => {
 
   const data = await notion.databases.query({
     database_id: process.env.NOTION_INFLUENCER_DB_ID,
-    cache: 'no_cache=' + Math.floor(Math.random() * 100000),
-  });
+  },
+  {
+    Headers: {
+      'Cache-Control': 'no-cache',
+    },
+  }
+  );
 
   return {
     props: {
