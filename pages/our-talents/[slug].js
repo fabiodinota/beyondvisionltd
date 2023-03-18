@@ -136,13 +136,7 @@ export const getStaticPaths = async () => {
 
   const data = await notion.databases.query({
     database_id: process.env.NOTION_INFLUENCER_DB_ID,
-  },
-  {
-    Headers: {
-      'Cache-Control': 'no-cache',
-    },
-  }
-  );
+  });
 
   const paths = [];
 
@@ -153,9 +147,7 @@ export const getStaticPaths = async () => {
       },
     });
   });
-
-  console.log(paths);
-
+  
   return {
     paths,
     fallback: false,
