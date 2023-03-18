@@ -183,6 +183,6 @@ export const getStaticProps = async ({ params: { slug } }) => {
     props: {
       data: page,
     },
-    revalidate: 5,
+    revalidate: 1800,
   };
 };
