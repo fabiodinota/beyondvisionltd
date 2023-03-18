@@ -18,18 +18,13 @@ export const getStaticProps = async () => {
 
   const data = await notion.databases.query({
     database_id: process.env.NOTION_BRAND_DB_ID,
-  },
-  {
-    Headers: {
-      'Cache-Control': 'no-cache',
-    },
-  }
-  );
+  });
 
   return {
     props: {
       data,
     },
+    revalidate: 5,
   };
 };
 

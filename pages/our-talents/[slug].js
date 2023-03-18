@@ -169,13 +169,7 @@ export const getStaticProps = async ({ params: { slug } }) => {
 
   const data = await notion.databases.query({
     database_id: process.env.NOTION_INFLUENCER_DB_ID,
-  },
-  {
-    Headers: {
-      'Cache-Control': 'no-cache',
-    },
-  }
-  );
+  });
 
   const page = data.results.find((item) => {
     if (
@@ -189,5 +183,6 @@ export const getStaticProps = async ({ params: { slug } }) => {
     props: {
       data: page,
     },
+    revalidate: 5,
   };
 };
