@@ -67,6 +67,28 @@ const TeamPage = () => {
             </a>
           </p>
         </div>
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 p-10 mt-[100px] place-items-center">
+        <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
+          <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
+            Cory Hodkinson
+          </h1>
+          <p className=" text-textaccent text-[16px] pb-5">Founder & CEO</p>
+          <p className="text-text w-full pb-5">
+            I founded Beyond Vision in March of 2022 and since that moment I
+            have loved every second and never looked back. Overall, the feeling
+            of essentially changing someone&apos;s life for the astronomical
+            good is such a privilege and an exhilarating and phenomenal feeling.
+          </p>
+          <p className="text-text font-semibold">
+            &gt;{" "}
+            <a
+              className="text-text font-semibold underline"
+              href="mailto:coryh@beyondvisionltd.org"
+            >
+              coryh@beyondvisionltd.org
+            </a>
+          </p>
+        </div>
         <div className="w-full sm:w-[90%] md:w-[70%] xl:w-[500px] h-max xl:h-[380px] flex justify-center items-start flex-col bg-backgroundaccent p-10 rounded-[40px]">
           <h1 className="text-yellow text-[30px] md:text-[40px] font-semibold leading-none">
             Ryan Macklin
