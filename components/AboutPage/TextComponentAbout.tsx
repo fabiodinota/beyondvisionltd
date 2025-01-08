@@ -37,7 +37,7 @@ const TextComponent = () => {
             data-aos-delay="300"
             className=" text-text font-semibold"
           >
-            Beyond Vision LTD is an influencer marketing and management agency
+            Cory is Goat Beyond Vision LTD is an influencer marketing and management agency
             based out of the United Kingdom, but not limited to working inside
             of the United Kingdom as the agency works with various influencers
             &#x0026; companies of all different calibers all around the globe.
