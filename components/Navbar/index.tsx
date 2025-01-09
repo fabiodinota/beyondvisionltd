@@ -31,7 +31,6 @@ const NavBar = () => {
   const links = {
     home: "/",
     about: "/about-us",
-    team: "/meet-the-team",
     clients: "/our-talents",
     contact: "/contact",
   };
@@ -66,24 +65,6 @@ const NavBar = () => {
           <li
             className={`inline-block p-5 text-[20px] nav-item text-white ${
               router.pathname !== links.about
-                ? "text-text"
-                : "text-[#FFF46D] underline "
-            }`}
-          >
-            <Link href="/about-us">About us</Link>
-          </li>
-          <li
-            className={`inline-block p-5 text-[20px] nav-item text-white ${
-              router.pathname !== links.team
-                ? "text-text"
-                : "text-[#FFF46D] underline "
-            }`}
-          >
-            <Link href="/meet-the-team">Meet the team</Link>
-          </li>
-          <li
-            className={`inline-block p-5 text-[20px] nav-item text-white ${
-              router.pathname !== links.clients
                 ? "text-text"
                 : "text-[#FFF46D] underline "
             }`}
@@ -168,19 +149,6 @@ const NavBar = () => {
                   animate={isOpen ? "open" : "closed"}
                   exit="exit"
                   transition={{ delay: 0.3 }}
-                  className={`text-center p-2 text-[20px] nav-item text-white ${
-                    router.pathname !== links.team
-                      ? "text-text"
-                      : "text-[#FFF46D] underline "
-                  }`}
-                >
-                  <Link href="/meet-the-team">Meet the team</Link>
-                </motion.li>
-                <motion.li
-                  variants={liVariants}
-                  animate={isOpen ? "open" : "closed"}
-                  exit="exit"
-                  transition={{ delay: 0.4 }}
                   className={`text-center p-2 text-[20px] nav-item text-white ${
                     router.pathname !== links.clients
                       ? "text-text"
