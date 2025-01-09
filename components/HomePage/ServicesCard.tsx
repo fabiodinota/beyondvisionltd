@@ -22,7 +22,7 @@ const ServicesCard = () => {
           </div>
           <h3 className="text[20px] text-text">Social Media Management</h3>
           <p className="text-textaccent pb-10 text-center w-full md:w-[320px] 1xl:w-full px-5 text-[13px]">
-            TikTok | Instagram | Twitch | Snapchat | Twitter
+            TikTok | Instagram | Twitch | Snapchat | X
           </p>
         </div>
         <div
@@ -51,8 +51,8 @@ const ServicesCard = () => {
           </div>
           <h3 className="text[20px] text-text">Contract Management</h3>
           <p className="text-textaccent pb-10 text-center w-full md:w-[320px] 1xl:w-full px-5 text-[13px]">
-            We will handle any negotiation talks on your behalf with your goals
-            in mind to bring you the best possible deals.
+            We will handle any negotiation talks for you with your goals 
+            at the forefront to bring you the best possible deals.
           </p>
         </div>
         <div
@@ -66,8 +66,8 @@ const ServicesCard = () => {
           </div>
           <h3 className="text[20px] text-text">Public Appearances</h3>
           <p className="text-textaccent pb-10 text-center w-full md:w-[320px] 1xl:w-full px-5 text-[13px]">
-            We will bring you unique and exquisite in-person opportunities to
-            further your career in the public eye.
+            We will bring you exclusive in-person opportunities to
+            build a blueprint within the industry.
           </p>
         </div>
         <div
