@@ -17,10 +17,10 @@ const TextComponent = () => {
             Why we do it
           </h1>
           <p className="text-text">
-            Our goal is to turn our client&apos;s dreams into reality. Each of
-            our clients is unbelievably hardworking and dedicated, each of them
+            Our goal is to transform our client&apos;s dreams into reality. 
+            Our clients are unbelievably hardworking and dedicated, and each
             deserves to do content creation for a living. That is what we are
-            here to do, work relentlessly to turn those dreams into reality
+            here to do, work relentlessly to transform those dreams into reality
             while achieving beyond the vision of any aspirations!
           </p>
         </div>
@@ -54,15 +54,15 @@ const TextComponent = () => {
           className="pl-0 xl:pl-10 max-w-[900px] w-[90%] pb-10 xl:pb-0 xl:w-[610px]"
         >
           <h1 className="text-[36px] md:text-[42px] text-yellow font-semibold">
-            Why companies need to work with influencers
+            Why brands need to work with influencers
           </h1>
           <p className=" text-text">
-            The reason working with influencers is more beneficial is because
-            newspaper ads are between articles that the audience wants to read,
-            and television commercials are between the content the viewer wants
-            to see. What makes an ad with an influencer any better? The audience
-            has chosen to pay attention and watch the advert in front of their
-            eyes.
+          The reason working with influencers is much more beneficial is because newspaper 
+          ads are between articles that the audience wants to read, and television commercials 
+          are in between the content the viewer wants to see. What makes an ad with an influencer 
+          any better? The audience has chosen to pay attention and watch the advert 
+          in front of their eyes since they enjoy the creator's content, they are hooked by the plot, 
+          and they simply feel a connection with the creator.
           </p>
         </div>
       </div>

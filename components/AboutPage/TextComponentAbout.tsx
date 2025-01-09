@@ -37,17 +37,16 @@ const TextComponent = () => {
             data-aos-delay="300"
             className=" text-text font-semibold"
           >
-            Cory is Goat Beyond Vision LTD is an influencer marketing and management agency
-            based out of the United Kingdom, but not limited to working inside
-            of the United Kingdom as the agency works with various influencers
-            &#x0026; companies of all different calibers all around the globe.
+            Beyond Vision LTD is an influencer marketing and management agency 
+            based in the United Kingdom. The agency however is not limited 
+            to working solely within the United Kingdom as they work with various 
+            influencers & brands of all different calibers from all around the globe.
             <br />
             <br />
-            Beyond Vision was founded in early March of 2022 by the current CEO,
-            Cory Hodkinson, since its launch in March of 2022, Beyond Vision has
-            accumulated an influencer clientele roster of over 500 million in
-            terms of a combined following while rapidly expanding each passing
-            day.
+            Beyond Vision was founded in early March of 2022 by the current CEO, 
+            Cory Hodkinson, since its launch Beyond Vision has accumulated an influencer 
+            clientele roster of over 800 individual influencers and over 1 billion in terms 
+            of a combined following, while rapidly expanding by each passing day.
           </p>
         </div>
       </div>
@@ -107,14 +106,12 @@ const TextComponent = () => {
             Why we do it{" "}
           </h1>
           <p className=" text-text">
-            Our priority at Beyond Vision is to help our influencer clientele do
-            what they love doing as a full-time living. The feeling of
-            essentially changing someone&#39;s life for the greater good is
-            exhilarating and so overwhelming. Each of our influencers is
-            unbelievably hardworking and dedicated, they all thoroughly deserve
-            to do this as a full-time living and that is what we are here to do,
-            we work relentlessly to turn those dreams into reality while
-            achieving above and beyond any aspirations!
+          Our priority at Beyond Vision is to help our influencer clientele do what 
+          they love doing as a full-time living. Nothing compares to the feeling of 
+          essentially changing someone's life for the greater good. Each of our influencers 
+          is unbelievably hardworking and dedicated, they all thoroughly deserve to do this 
+          for a living and that is what we are here to do, we work relentlessly to turn 
+          those dreams into reality while achieving above and beyond any aspirations!
           </p>
         </div>
       </div>
@@ -127,7 +124,7 @@ const TextComponent = () => {
           className="max-w-[900px] w-[90%] xl:w-[610px] pb-10 xl:pb-0 pr-0 xl:pr-10"
         >
           <h1 className="text-[36px] md:text-[42px] text-yellow font-semibold">
-            Why companies need to work with influencers{" "}
+            Why brands need to work with influencers{" "}
           </h1>
           <p className="text-text">
             Working with influencers is a vital key a company needs for
@@ -135,11 +132,13 @@ const TextComponent = () => {
             immaculate, loyal, and large audience, which holds tremendous power
             to promote a brand. Working with an influencer is proven to be more
             successful for brands than any newspaper or television commercial.
-            The reason working with an influencer is more successful is because
-            newspaper ads are between articles the audience wants to read, and a
-            television commercial is between the content viewers want to see,
-            while the audience has chosen to watch the advert the influencer
-            posted.
+            The reason working with influencers is much more beneficial is because 
+            newspaper ads are between articles that the audience wants to read, 
+            and television commercials are in between the content the viewer wants 
+            to see. What makes an ad with an influencer any better? The audience has 
+            chosen to pay attention and watch the advert in front of their eyes 
+            since they enjoy the creator's content, they are hooked by the plot, 
+            and they simply feel a connection with the creator.
           </p>
         </div>
         <div
