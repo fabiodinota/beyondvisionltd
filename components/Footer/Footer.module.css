@@ -1,57 +1,57 @@
 @font-face {
-    font-family: 'sourcesanspro';
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
-    src: url(https://design.penpot.app/fonts/sourcesanspro-regular.woff) format('woff');
-  }
-@font-face {
-    font-family: 'sourcesanspro';
-    font-style: normal;
-    font-weight: bold;
-    font-display: block;
-    src: url(https://design.penpot.app/fonts/sourcesanspro-bold.woff) format('woff');
-  }
-/* cyrillic-ext */
-@font-face {
-  font-family: 'Roboto';
+  font-family: 'sourcesanspro';
   font-style: normal;
-  font-weight: 700;
-  font-stretch: 100%;
+  font-weight: 400;
   font-display: block;
-  src: url(https://design.penpot.app/internal/gfonts/font/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmZiArmlw.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  src: url(https://design.penpot.app/fonts/sourcesanspro-regular.woff) format('woff');
 }
-/* cyrillic */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'sourcesanspro';
   font-style: normal;
-  font-weight: 700;
-  font-stretch: 100%;
+  font-weight: bold;
   font-display: block;
-  src: url(https://design.penpot.app/internal/gfonts/font/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmQiArmlw.woff2) format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  src: url(https://design.penpot.app/fonts/sourcesanspro-bold.woff) format('woff');
 }
-/* greek-ext */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: 100%;
-  font-display: block;
-  src: url(https://design.penpot.app/internal/gfonts/font/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmYiArmlw.woff2) format('woff2');
-  unicode-range: U+1F00-1FFF;
+
+.footerContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  color: #FFFFFF;
 }
-/* greek */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: 100%;
-  font-display: block;
-  src: url(https://design.penpot.app/internal/gfonts/font/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmXiArmlw.woff2) format('woff2');
-  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
 }
+
+.footerContainer *,  
+.footerContainer {
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+.text-node {
+  background-clip: text !important; 
+  -webkit-background-clip: text !important;
+}
+
+.footerContainer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footerContainer a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
 /* math */
 @font-face {
   font-family: 'Roboto';
@@ -660,4 +660,19 @@ Creator? */
   height: 450px;
   background: #161616;
   border-radius: 0px;
+}
+.footerContainer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footerContainer a:hover {
+  text-decoration: underline;
+}
+.text-white {
+  color: #FFFFFF !important;
+}
+
+.text-white:hover {
+  color: #FFFFFF !important;
 }
