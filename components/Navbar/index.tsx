@@ -69,6 +69,15 @@ const NavBar = () => {
                 : "text-[#FFF46D] underline "
             }`}
           >
+            <Link href="/about-us">About us</Link>
+          </li>
+          <li
+            className={`inline-block p-5 text-[20px] nav-item text-white ${
+              router.pathname !== links.clients
+                ? "text-text"
+                : "text-[#FFF46D] underline "
+            }`}
+          >
             <Link href="/our-talents">Our talents</Link>
           </li>
           <li

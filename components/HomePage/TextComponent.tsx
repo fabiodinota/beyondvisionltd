@@ -1,16 +1,29 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import HomeImage1 from "../../public/images/HomeImage1.png";
 import HomeImage2 from "../../public/images/HomeImage2.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const TextComponent = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+      once: false,
+      easing: "ease-in-out",
+    });
+
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       <div className="flex justify-center items-center flex-wrap xl:flex-nowrap px-0 xl:px-5 flex-row">
         <div
           data-aos="fade-right"
           data-aos-duration="600"
+          data-aos-delay="200"
           className="max-w-[900px] w-[90%] xl:w-[610px] pb-10 xl:pb-0 pr-0 xl:pr-10"
         >
           <h1 className="text-[36px] md:text-[42px] text-yellow font-semibold">
@@ -40,6 +53,7 @@ const TextComponent = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="600"
+          data-aos-delay="300"
           className="w-[90%] xl:w-[550px] xl:h-auto"
         >
           <Image
@@ -51,18 +65,19 @@ const TextComponent = () => {
         <div
           data-aos="fade-left"
           data-aos-duration="600"
+          data-aos-delay="400"
           className="pl-0 xl:pl-10 max-w-[900px] w-[90%] pb-10 xl:pb-0 xl:w-[610px]"
         >
           <h1 className="text-[36px] md:text-[42px] text-yellow font-semibold">
             Why brands need to work with influencers
           </h1>
-          <p className=" text-text">
-          The reason working with influencers is much more beneficial is because newspaper 
-          ads are between articles that the audience wants to read, and television commercials 
-          are in between the content the viewer wants to see. What makes an ad with an influencer 
-          any better? The audience has chosen to pay attention and watch the advert 
-          in front of their eyes since they enjoy the creator's content, they are hooked by the plot, 
-          and they simply feel a connection with the creator.
+          <p className="text-text">
+            The reason working with influencers is much more beneficial is because newspaper 
+            ads are between articles that the audience wants to read, and television commercials 
+            are in between the content the viewer wants to see. What makes an ad with an influencer 
+            any better? The audience has chosen to pay attention and watch the advert 
+            in front of their eyes since they enjoy the creator's content, they are hooked by the plot, 
+            and they simply feel a connection with the creator.
           </p>
         </div>
       </div>
