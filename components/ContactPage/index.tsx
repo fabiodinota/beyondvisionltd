@@ -31,7 +31,6 @@ const ContactPage = () => {
             Contact Us
           </h1>
           <p className="text-text text-[20px] font-semibold pb-10">
-            489 489 Lytham <br></br>Road Blackpool <br></br>FY4 1QY <br></br>
             <a className="underline text-text">business@beyondvisionltd.org</a>
           </p>
           <select
