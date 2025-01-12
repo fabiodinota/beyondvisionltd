@@ -31,6 +31,7 @@ const NavBar = () => {
   const links = {
     home: "/",
     about: "/about-us",
+    studies: "/case-studies",
     clients: "/our-talents",
     contact: "/contact",
   };
@@ -70,6 +71,15 @@ const NavBar = () => {
             }`}
           >
             <Link href="/about-us">About us</Link>
+            </li>
+          <li
+            className={`inline-block p-5 text-[20px] nav-item text-white ${
+              router.pathname !== links.studies
+                ? "text-text"
+                : "text-[#FFF46D] underline "
+            }`}
+          >
+            <Link href="/case-studies">Case Studies</Link>
           </li>
           <li
             className={`inline-block p-5 text-[20px] nav-item text-white ${
@@ -152,6 +162,19 @@ const NavBar = () => {
                   }`}
                 >
                   <Link href="/about-us">About us</Link>
+                  </motion.li>
+                <motion.li
+                  variants={liVariants}
+                  animate={isOpen ? "open" : "closed"}
+                  exit="exit"
+                  transition={{ delay: 0.2 }}
+                  className={`text-center p-2 text-[20px] nav-item text-white ${
+                    router.pathname !== links.studies
+                      ? "text-text"
+                      : "text-[#FFF46D] underline "
+                  }`}
+                >
+                  <Link href="/case-studies">Case Studies</Link>
                 </motion.li>
                 <motion.li
                   variants={liVariants}

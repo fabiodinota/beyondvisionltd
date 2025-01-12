@@ -66,9 +66,6 @@ const HomePage = ({ data }) => {
           What do we do?
         </h1>
       </section>
-      {/* Original part - End */}
-
-      {/* Section 5 - ServicesCard */}
       <div
         data-aos="fade-down"
         data-aos-duration="800"
@@ -78,7 +75,6 @@ const HomePage = ({ data }) => {
         <ServicesCard />
       </div>
 
-      {/* Section 6 - InfluencerCard */}
       <section className="mt-[100px] max-w-[1220px] w-full">
         <h1
           data-aos="fade-right"
@@ -93,14 +89,12 @@ const HomePage = ({ data }) => {
         <InfluencerCard />
       </div>
 
-      {/* Section 7 - Link */}
       <Link href="our-talents">
         <button className="text-black rounded-full  bg-yellow hover:bg-opacity-75 duration-300 h-[70px] w-[170px] shadow-[0_0_20px_1px_rgba(255,244,109,0.2)]">
           View More
         </button>
       </Link>
 
-      {/* Section 8 - Brands */}
       <section className="lg:mt-[100px] max-w-[1220px] w-full">
         <h1
           data-aos="fade-right"
@@ -113,7 +107,6 @@ const HomePage = ({ data }) => {
       </section>
       <Brands data={data} />
 
-      {/* Section 9 - TextComponent */}
       <section className="flex justify-center items-center max-w-[1220px] w-[90%] xl:w-full  flex-col mt-[100px] xl:mt-[150px]">
         <TextComponent />
       </section>

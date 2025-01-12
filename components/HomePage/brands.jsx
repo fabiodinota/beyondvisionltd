@@ -4,7 +4,6 @@ import Marquee from "react-fast-marquee";
 const Brands = ({ data }) => {
   return (
     <>
-      {/* <pre className="text-[#fff]">{JSON.stringify(data, null, 2)}</pre>  */}
 
       <div className="h-[200px] container relative w-full max-w-[1220px] mb-10">
         <Marquee

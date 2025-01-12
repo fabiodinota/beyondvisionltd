@@ -11,10 +11,11 @@ interface Props {
 
 const Layout: React.FC<Props> = ({ children, title }) => {
   const variants = {
-    initial: { opacity: 0, y: -20, scale: 0.995, blur: 0 },
-    animate: { opacity: 1, y: 0, scale: 1, blur: 100 },
-    exit: { opacity: 0, y: 20, scale: 1.005, blur: 0 },
+    initial: { opacity: 0, y: -20, scale: 0.995 },
+    animate: { opacity: 1, y: 0, scale: 1 },
+    exit: { opacity: 0, y: 20, scale: 0.995 },
   };
+
   return (
     <div className="bg-[#161616] -z-50">
       <Head>
@@ -27,34 +28,9 @@ const Layout: React.FC<Props> = ({ children, title }) => {
         <meta
           name="description"
           content="Beyond Vision LTD is an influencer marketing and management agency based out of the United
-         Kingdom, but not limited to working inside of the United Kingdom as the agency works with various influencers & companies of
+          Kingdom, but not limited to working inside of the United Kingdom as the agency works with various influencers & companies of
           all different calibers all around the globe."
         />
-        <meta content="#FFF46D" data-react-helmet="true" name="theme-color" />
-        <meta property="og:url" content="https://www.beyondvisionltd.org" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Beyond Vision LTD" />
-        <meta
-          property="og:description"
-          content="Beyond Vision LTD is an influencer marketing and management agency based out of the United
-         Kingdom, but not limited to working inside of the United Kingdom as the agency works with various influencers & companies of
-          all different calibers all around the globe."
-        />
-        <meta property="og:image" content="https://i.imgur.com/Gd1N9JI.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="www.beyondvisionltd.org" />
-        <meta
-          property="twitter:url"
-          content="https://www.beyondvisionltd.org"
-        />
-        <meta name="twitter:title" content="Beyond Vision LTD" />
-        <meta
-          name="twitter:description"
-          content="Beyond Vision LTD is an influencer marketing and management agency based out of the United
-         Kingdom, but not limited to working inside of the United Kingdom as the agency works with various influencers & companies of
-          all different calibers all around the globe."
-        />
-        <meta name="twitter:image" content="https://i.imgur.com/Gd1N9JI.jpg" />
       </Head>
       <header>
         <NavBar />
@@ -64,7 +40,7 @@ const Layout: React.FC<Props> = ({ children, title }) => {
         animate="animate"
         exit="exit"
         variants={variants}
-        transition={{ duration: 0.3 }}
+        transition={{ type: "spring", damping: 25, stiffness: 120 }}
       >
         <main>{children}</main>
       </motion.div>
