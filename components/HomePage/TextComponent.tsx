@@ -76,7 +76,7 @@ const TextComponent = () => {
             ads are between articles that the audience wants to read, and television commercials 
             are in between the content the viewer wants to see. What makes an ad with an influencer 
             any better? The audience has chosen to pay attention and watch the advert 
-            in front of their eyes since they enjoy the creator's content, they are hooked by the plot, 
+            in front of their eyes since they enjoy the creator&apos;s content, they are hooked by the plot, 
             and they simply feel a connection with the creator.
           </p>
         </div>

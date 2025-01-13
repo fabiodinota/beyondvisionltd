@@ -12,7 +12,6 @@ const HomePage = ({ data }) => {
   return (
     <div className="flex justify-center items-center w-full h-full flex-col overflow-hidden">
       
-      {/* Original part - Start */}
       <section className="flex justify-center items-center max-w-[1220px] w-full mx-10 h-screen flex-row">
         <div className=" px-10 md:pl-20 relative z-50">
           <h1

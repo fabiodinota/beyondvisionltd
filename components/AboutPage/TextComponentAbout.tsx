@@ -29,7 +29,7 @@ const TextComponent = () => {
             data-aos-delay="150"
             className="text-[36px] md:text-[42px] pb-5 text-yellow font-semibold"
           >
-            Marketing & Management Agency{" "}
+            Marketing &amp; Management Agency{" "}
           </h1>
           <p
             data-aos="fade-up"
@@ -40,7 +40,7 @@ const TextComponent = () => {
             Beyond Vision LTD is an influencer marketing and management agency 
             based in the United Kingdom. The agency however is not limited 
             to working solely within the United Kingdom as they work with various 
-            influencers & brands of all different calibers from all around the globe.
+            influencers &amp; brands of all different calibers from all around the globe.
             <br />
             <br />
             Beyond Vision was founded in early March of 2022 by the current CEO, 
@@ -108,7 +108,7 @@ const TextComponent = () => {
           <p className=" text-text">
           Our priority at Beyond Vision is to help our influencer clientele do what 
           they love doing as a full-time living. Nothing compares to the feeling of 
-          essentially changing someone's life for the greater good. Each of our influencers 
+          essentially changing someone&apos;s life for the greater good. Each of our influencers 
           is unbelievably hardworking and dedicated, they all thoroughly deserve to do this 
           for a living and that is what we are here to do, we work relentlessly to turn 
           those dreams into reality while achieving above and beyond any aspirations!
@@ -137,7 +137,7 @@ const TextComponent = () => {
             and television commercials are in between the content the viewer wants 
             to see. What makes an ad with an influencer any better? The audience has 
             chosen to pay attention and watch the advert in front of their eyes 
-            since they enjoy the creator's content, they are hooked by the plot, 
+            since they enjoy the creator&apos;s content, they are hooked by the plot, 
             and they simply feel a connection with the creator.
           </p>
         </div>
