@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
                 <span style="color: #FFF36D;">Brand?</span> 
                 <span style="color: #FFFFFF;">Creator?</span>
               </h3>
-              <a href="/contact-us" style="background-color: #FFF36D; color: #000; padding: 0.75rem 1.5rem; border: none; border-radius: 3rem; font-size: 1rem; margin-top: 1rem; text-decoration: none; display: inline-block;">
+              <a href="/contact" style="background-color: #FFF36D; color: #000; padding: 0.75rem 1.5rem; border: none; border-radius: 3rem; font-size: 1rem; margin-top: 1rem; text-decoration: none; display: inline-block;">
                 Contact Us
               </a>
             </div>
