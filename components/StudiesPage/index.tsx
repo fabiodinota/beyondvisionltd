@@ -1,30 +1,60 @@
-import React from 'react';
-import Image from 'next/image';
-import Image1 from '../../public/images/Case Studies/DarryringxBrandonAndDaisy.png';
-import Image2 from '../../public/images/Case Studies/OnceHumanxQLC.png';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const StudiesPage: React.FC = () => {
-  const images = [Image1, Image2];
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  const videos = [
+    '/videos/2502.mp4',
+    '/videos/2503.mp4',
+    '/videos/2504.mp4',
+    '/videos/2505.mp4',
+    '/videos/2506.mp4',
+    '/videos/2507.mp4',
+  ];
 
   return (
-    <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      <h1 className="text-yellow text-[48px]  flex justify-start items-start text-start px-10 xl:px-0 font-semibold mt-28">Case Studies</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
-        {images.map((src, index) => (
-          <div key={index} className="relative w-(856) h-[580px]">
-            <Image 
-              src={src}
-              width={856}
-              height={580}
-              objectFit="cover"
-              alt={`Case study ${index + 1}`}
-              className="rounded-lg shadow-lg"
-            />
-          </div>
-        ))}
+    <div className="bg-background">
+      <div
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+        className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8"
+      >
+        <h1 className="text-yellow text-[48px] font-semibold mb-10 text-left mt-16">
+          Case Studies
+        </h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8">
+          {videos.map((src, index) => (
+            <div
+              key={index}
+              data-aos="slide-up"
+              data-aos-duration="800"
+              data-aos-delay={`${index * 100}`}
+              className="relative flex justify-center"
+            >
+              <video 
+                width="324" 
+                height="576" 
+                controls 
+                autoPlay 
+                muted 
+                loop
+                className="rounded-lg shadow-lg"
+              >
+                <source src={src} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
 };
 
 export default StudiesPage;
+
