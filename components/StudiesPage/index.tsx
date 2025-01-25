@@ -7,7 +7,6 @@ const StudiesPage: React.FC = () => {
     AOS.init();
   }, []);
 
-  // Představme si, že máme URL pro každý video na Vimeo
   const vimeoVideos = [
     'https://player.vimeo.com/video/1050310564?h=ae010c3068',
     'https://player.vimeo.com/video/1050310506?h=8114864a33',
@@ -38,13 +37,14 @@ const StudiesPage: React.FC = () => {
               data-aos="slide-up"
               data-aos-duration="800"
               data-aos-delay={`${index * 100}`}
-              className="relative flex justify-center"
+              className="relative w-full"
+              style={{ paddingBottom: '177.78%', position: 'relative' }} // Zachování poměru 16:9
             >
               <iframe
                 src={`${videoUrl}?title=0&byline=0&portrait=0&badge=0&autopause=0`}
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
                 title={`video-${index + 1}`}
               ></iframe>
             </div>
