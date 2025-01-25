@@ -8,15 +8,15 @@ const StudiesPage: React.FC = () => {
   }, []);
 
   const vimeoVideos = [
-    'https://player.vimeo.com/video/1050310564?h=ae010c3068',
-    'https://player.vimeo.com/video/1050310506?h=8114864a33',
-    'https://player.vimeo.com/video/1050310395?h=c4c5b71eb3',
-    'https://player.vimeo.com/video/1050310293?h=6a7118a90c',
-    'https://player.vimeo.com/video/1050310256?h=67d9433ee1',
-    'https://player.vimeo.com/video/1050310221?h=adca3b3d4e',
-    'https://player.vimeo.com/video/1050310175?h=3adfed800b',
-    'https://player.vimeo.com/video/1050310080?h=4f06a0c874',
-    'https://player.vimeo.com/video/1050310031?h=72a62fa6e9',
+    'https://player.vimeo.com/video/1050310564',
+    'https://player.vimeo.com/video/1050310506',
+    'https://player.vimeo.com/video/1050310395',
+    'https://player.vimeo.com/video/1050310293',
+    'https://player.vimeo.com/video/1050310256',
+    'https://player.vimeo.com/video/1050310221',
+    'https://player.vimeo.com/video/1050310175',
+    'https://player.vimeo.com/video/1050310080',
+    'https://player.vimeo.com/video/1050310031',
   ];
 
   return (
@@ -37,14 +37,16 @@ const StudiesPage: React.FC = () => {
               data-aos="slide-up"
               data-aos-duration="800"
               data-aos-delay={`${index * 100}`}
-              className="relative w-full"
-              style={{ paddingBottom: '177.78%', position: 'relative' }} // Zachování poměru 16:9
+              className="relative flex justify-center"
+              style={{ width: '324px', height: '576px' }}
             >
               <iframe
-                src={`${videoUrl}?title=0&byline=0&portrait=0&badge=0&autopause=0`}
+                src={`${videoUrl}?autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0&badge=0&autopause=0`}
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg"
+                width="324"
+                height="576"
                 title={`video-${index + 1}`}
               ></iframe>
             </div>
