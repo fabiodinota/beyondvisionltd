@@ -11,15 +11,11 @@ module.exports = {
     return [
       {
         source: "/videos/:path*",
-        headers: [
-          {
-            key: "Content-Type",
-            value: "video/mp4",
-          },
-        ],
+        headers: [{ key: "Content-Type", value: "video/mp4" }],
       },
     ];
   },
 };
+
 
 module.exports = nextConfig;
