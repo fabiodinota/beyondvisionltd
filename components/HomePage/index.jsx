@@ -113,26 +113,35 @@ const HomePage = ({ data }) => {
       </section>
 
       <section className="max-w-[1220px] w-full flex flex-col items-start mt-[100px] px-10 xl:px-0">
-        <h1
-          data-aos="fade-right"
-          data-aos-duration="500"
-          data-aos-delay="0"
-          className="text-yellow text-[48px] font-semibold pb-[50px]"
-        >
-          Case Studies
-        </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-32">
-          <video width="324" height="576" autoPlay loop muted className="rounded-lg shadow-lg">
-            <source src="/videos/M11.mp4" type="video/mp4" />
-          </video>
-          <video width="324" height="576" autoPlay loop muted className="rounded-lg shadow-lg">
-            <source src="/videos/M12.mp4" type="video/mp4" />
-          </video>
-          <video width="324" height="576" autoPlay loop muted className="rounded-lg shadow-lg">
-            <source src="/videos/M13.mp4" type="video/mp4" />
-          </video>
-        </div>
-      </section>
+  <h1
+    data-aos="fade-right"
+    data-aos-duration="500"
+    data-aos-delay="0"
+    className="text-yellow text-[48px] font-semibold pb-[50px]"
+  >
+    Case Studies
+  </h1>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-32">
+    {[
+      "https://player.vimeo.com/video/1050310564",
+      "https://player.vimeo.com/video/1050310506",
+      "https://player.vimeo.com/video/1050310395",
+    ].map((videoUrl, index) => (
+      <div key={index} className="relative flex justify-center">
+        <iframe
+          src={`${videoUrl}?autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0&badge=0&autopause=0`}
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+          className="rounded-lg shadow-lg"
+          width="324"
+          height="576"
+          title={`video-${index + 1}`}
+        ></iframe>
+      </div>
+    ))}
+  </div>
+</section>
+
     </div>
   );
 };
