@@ -19,7 +19,7 @@ const HomePage = ({ data }) => {
             data-aos-duration="800"
             className="text-[40px] xxs:text-[54px] xl:text-[84px] text-yellow leading-[100%] font-bold "
           >
-            Looking <br></br> Beyond <br></br>Most Vouched
+            Looking <br></br> Beyond <br></br>Vision
           </h1>
           <p
             data-aos="fade-up"
