@@ -27,7 +27,7 @@ const HomePage = ({ data }) => {
             data-aos-delay="200"
             className="text-text text-[15px] xs:text-[20px] leading-[150%] font-semibold max-w-[400px] w-90% lg:w-[400px] pt-5"
           >
-            With YouTube &#38; Social Media administration, Content Creation,
+            With YouTbe &#38; Social Media administration, Content Creation,
             and Personalised Workflows, this all-in-one solution for Content
             Creators &#38; Influencers will take your business to the next level
             while saving you time.
