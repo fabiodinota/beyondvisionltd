@@ -74,7 +74,7 @@ const NavBar = () => {
             </li>
           <li
             className={`inline-block p-5 text-[20px] nav-item text-white ${
-              router.pathname !== links.studies
+              router.pathname !== links.pornhub.com
                 ? "text-text"
                 : "text-[#FFF46D] underline "
             }`}
